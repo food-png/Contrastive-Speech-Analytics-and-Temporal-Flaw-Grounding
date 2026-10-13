@@ -253,6 +253,16 @@ subsequent flaw bound is shifted to the post-edit timeline.
 - Fixed cross-fade length (`DEFAULT_CROSSFADE_MS = 9.0`)
 - Deterministic algorithmic synthesizer (seeded NumPy generator)
 
+## AI assistance and transparency
+
+In adherence to the hackathon transparency guidelines, AI assistants (Cursor Composer and Gemini) were utilized as collaborative tools during development:
+
+- **Ideation and architecture.** Used AI as a sparring partner to design the 6-phase pipeline architecture and determine mathematical threshold boundaries for time-series residual tracking.
+- **Boilerplate and tool scaffolding.** Accelerated implementation of repetitive boilerplate code, including Pydantic data schemas, FastAPI route scaffolding, and synthetic text-to-speech scripts.
+- **Documentation and scripting.** Leveraged LLMs to draft initial outlines for technical documentation, video demo narration scripts, and test suite definitions.
+
+**Original engineering and human integration.** All core architectural decisions, digital signal processing (DSP) parameters, z-score normalization logic, dynamic time warping (DTW) integration, custom 4-axis rubric weighting, and end-to-end debugging of audio cross-fading and alignment pipelines were designed, tested, and calibrated by the project author.
+
 ## License note
 
 Synthetic audio and paraphrase-style transcripts are generated for research
