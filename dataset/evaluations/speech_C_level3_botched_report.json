@@ -1,0 +1,292 @@
+{
+  "sample_id": "speech_C_level3_botched",
+  "baseline_id": "speech_C_baseline",
+  "severity_level": 3,
+  "overall_score": 35.46,
+  "letter_grade": "F",
+  "dimension_scores": {
+    "pacing_score": 6.12,
+    "dynamic_energy_score": 0.0,
+    "tonal_variety_score": 20.71,
+    "pause_discipline_score": 8.62
+  },
+  "flaw_count_by_severity": {
+    "1": 1,
+    "2": 1,
+    "3": 12
+  },
+  "detailed_flaw_diagnoses": [
+    {
+      "flaw_id": "det_01",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 3.862,
+      "end_sec": 7.205,
+      "duration_sec": 3.342,
+      "severity_score": 0.9211,
+      "target_phrase": "",
+      "math_evidence": "Unscheduled silence of 3.34s (reference pause was 1.06s).",
+      "causal_rationale": "Prolonged hesitation between 'downstream.' and 'She'.",
+      "impact": "Breaks syntactic momentum and signals hesitation or memory lapse to adjudicators.",
+      "actionable_feedback": "Maintain steady breathing cadence; if pausing for dramatic effect, cap duration at 0.8\u20131.2s.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "cand_pause_sec": 3.342,
+        "base_pause_sec": 1.061,
+        "delta_pause_sec": 2.282,
+        "mult_threshold": 3.0
+      }
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 4.896,
+      "end_sec": 4.992,
+      "duration_sec": 0.096,
+      "severity_score": 1.0,
+      "target_phrase": "",
+      "math_evidence": "Loudness surged by +43.6 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'the marked clause'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 43.587,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 12.096,
+      "end_sec": 13.088,
+      "duration_sec": 0.992,
+      "severity_score": 1.0,
+      "target_phrase": "mist: a childhood",
+      "math_evidence": "Loudness surged by +47.6 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'mist: a childhood'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 47.556,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_04",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 13.028,
+      "end_sec": 15.41,
+      "duration_sec": 2.382,
+      "severity_score": 0.4407,
+      "target_phrase": "",
+      "math_evidence": "Unscheduled silence of 2.38s (reference pause was 0.24s).",
+      "causal_rationale": "Prolonged hesitation between 'childhood' and 'kitchen,'.",
+      "impact": "Breaks syntactic momentum and signals hesitation or memory lapse to adjudicators.",
+      "actionable_feedback": "Maintain steady breathing cadence; if pausing for dramatic effect, cap duration at 0.8\u20131.2s.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "cand_pause_sec": 2.382,
+        "base_pause_sec": 0.24,
+        "delta_pause_sec": 2.141,
+        "mult_threshold": 3.0
+      }
+    },
+    {
+      "flaw_id": "det_05",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 15.648,
+      "end_sec": 15.776,
+      "duration_sec": 0.128,
+      "severity_score": 1.0,
+      "target_phrase": "kitchen,",
+      "math_evidence": "Loudness surged by +49.2 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'kitchen,'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 49.208,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_06",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 16.512,
+      "end_sec": 18.112,
+      "duration_sec": 1.6,
+      "severity_score": 1.0,
+      "target_phrase": "bread, a lullaby half-forgotten.",
+      "math_evidence": "Loudness surged by +60.0 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'bread, a lullaby half-forgotten.'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_07",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 19.68,
+      "end_sec": 20.0,
+      "duration_sec": 0.32,
+      "severity_score": 1.0,
+      "target_phrase": "gratitude arrived",
+      "math_evidence": "Loudness surged by +30.7 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'gratitude arrived'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 30.703,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_08",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 20.48,
+      "end_sec": 20.8,
+      "duration_sec": 0.32,
+      "severity_score": 1.0,
+      "target_phrase": "together,",
+      "math_evidence": "Loudness surged by +54.2 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'together,'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 54.164,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_09",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 21.408,
+      "end_sec": 21.696,
+      "duration_sec": 0.288,
+      "severity_score": 0.871,
+      "target_phrase": "asking",
+      "math_evidence": "Loudness surged by +22.5 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'asking'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 22.452,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_10",
+      "category": "pacing",
+      "sub_type": "dragging_cadence",
+      "start_sec": 22.208,
+      "end_sec": 24.448,
+      "duration_sec": 2.24,
+      "severity_score": 0.6333,
+      "target_phrase": "permission.",
+      "math_evidence": "Speaking rate fell to 70 WPM (0.3x reference rate of 120 WPM).",
+      "causal_rationale": "Excessive syllable elongation across phrase 'permission.'.",
+      "impact": "Momentum collapses; adjudicators perceive hesitation and loss of argumentative drive.",
+      "actionable_feedback": "Tighten clause transitions and reclaim a steady mid-tempo cadence near the reference rate.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "pacing_ratio_median": 0.3333,
+        "threshold": 0.65
+      }
+    },
+    {
+      "flaw_id": "det_11",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 24.096,
+      "end_sec": 24.512,
+      "duration_sec": 0.416,
+      "severity_score": 1.0,
+      "target_phrase": "permission.",
+      "math_evidence": "Loudness surged by +54.9 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'permission.'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 54.855,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_12",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 30.336,
+      "end_sec": 30.624,
+      "duration_sec": 0.288,
+      "severity_score": 1.0,
+      "target_phrase": "the first light",
+      "math_evidence": "Loudness surged by +28.5 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'the first light'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 28.549,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_13",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 31.2,
+      "end_sec": 31.68,
+      "duration_sec": 0.48,
+      "severity_score": 1.0,
+      "target_phrase": "her voice found its",
+      "math_evidence": "Loudness surged by +25.5 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'her voice found its'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 25.528,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_14",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 32.192,
+      "end_sec": 32.544,
+      "duration_sec": 0.352,
+      "severity_score": 1.0,
+      "target_phrase": "again low as thunder,",
+      "math_evidence": "Loudness surged by +37.6 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'again low as thunder,'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 37.649,
+        "threshold_db": 12.0
+      }
+    }
+  ],
+  "executive_summary": "speech_C_level3_botched (Level 3) earns 35.5/100 (F). Primary flag: energy/volume_spike near 16.5\u201318.1s \u2014 Uncontrolled acoustic burst on unstressed syllable 'bread, a lullaby half-forgotten.'. Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+  "primary_causal_flag": "energy/volume_spike"
+}

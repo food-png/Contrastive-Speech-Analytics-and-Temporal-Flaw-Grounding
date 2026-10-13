@@ -1,0 +1,485 @@
+{
+  "overall": {
+    "true_positives": 17,
+    "false_positives": 50,
+    "false_negatives": 16,
+    "precision": 0.2537,
+    "recall": 0.5152,
+    "f1": 0.34,
+    "mean_iou": 0.6179,
+    "mean_boundary_error": 0.416,
+    "n_samples": 12
+  },
+  "per_sample": [
+    {
+      "candidate_id": "speech_A_level0_baseline",
+      "severity_level": 0,
+      "n_gt": 0,
+      "n_det": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mean_iou": 0.0,
+      "mean_start_err": 0.0,
+      "mean_end_err": 0.0,
+      "mean_boundary_error": 0.0,
+      "matches": [],
+      "unmatched_gt": [],
+      "unmatched_det": []
+    },
+    {
+      "candidate_id": "speech_A_level1_subtle_pitch_flatten",
+      "severity_level": 1,
+      "n_gt": 1,
+      "n_det": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mean_iou": 0.0,
+      "mean_start_err": 0.0,
+      "mean_end_err": 0.0,
+      "mean_boundary_error": 0.0,
+      "matches": [],
+      "unmatched_gt": [
+        "flaw_01"
+      ],
+      "unmatched_det": []
+    },
+    {
+      "candidate_id": "speech_A_level2_pacing_monotone",
+      "severity_level": 2,
+      "n_gt": 3,
+      "n_det": 9,
+      "true_positives": 2,
+      "false_positives": 7,
+      "false_negatives": 1,
+      "precision": 0.2222,
+      "recall": 0.6667,
+      "f1": 0.3333,
+      "mean_iou": 0.6299,
+      "mean_start_err": 0.96,
+      "mean_end_err": 0.174,
+      "mean_boundary_error": 0.567,
+      "matches": [
+        {
+          "gt_id": "flaw_01",
+          "det_id": "det_01",
+          "category": "pause",
+          "iou": 0.8754,
+          "start_err": 0.282,
+          "end_err": 0.007,
+          "center_offset": 0.1375
+        },
+        {
+          "gt_id": "flaw_02",
+          "det_id": "det_09",
+          "category": "pacing",
+          "iou": 0.3843,
+          "start_err": 1.638,
+          "end_err": 0.341,
+          "center_offset": 0.9895
+        }
+      ],
+      "unmatched_gt": [
+        "flaw_03"
+      ],
+      "unmatched_det": [
+        "det_02",
+        "det_03",
+        "det_04",
+        "det_05",
+        "det_06",
+        "det_07",
+        "det_08"
+      ]
+    },
+    {
+      "candidate_id": "speech_A_level3_botched",
+      "severity_level": 3,
+      "n_gt": 7,
+      "n_det": 12,
+      "true_positives": 3,
+      "false_positives": 9,
+      "false_negatives": 4,
+      "precision": 0.25,
+      "recall": 0.4286,
+      "f1": 0.3158,
+      "mean_iou": 0.4367,
+      "mean_start_err": 0.7113,
+      "mean_end_err": 0.468,
+      "mean_boundary_error": 0.5897,
+      "matches": [
+        {
+          "gt_id": "flaw_01",
+          "det_id": "det_01",
+          "category": "pause",
+          "iou": 0.6704,
+          "start_err": 1.074,
+          "end_err": 0.166,
+          "center_offset": 0.454
+        },
+        {
+          "gt_id": "flaw_02",
+          "det_id": "det_02",
+          "category": "pause",
+          "iou": 0.6396,
+          "start_err": 0.859,
+          "end_err": 0.381,
+          "center_offset": 0.239
+        },
+        {
+          "gt_id": "flaw_04",
+          "det_id": "det_03",
+          "category": "energy",
+          "iou": 0.0,
+          "start_err": 0.201,
+          "end_err": 0.857,
+          "center_offset": 0.529
+        }
+      ],
+      "unmatched_gt": [
+        "flaw_03",
+        "flaw_05",
+        "flaw_06",
+        "flaw_07"
+      ],
+      "unmatched_det": [
+        "det_04",
+        "det_05",
+        "det_06",
+        "det_07",
+        "det_08",
+        "det_09",
+        "det_10",
+        "det_11",
+        "det_12"
+      ]
+    },
+    {
+      "candidate_id": "speech_B_level0_baseline",
+      "severity_level": 0,
+      "n_gt": 0,
+      "n_det": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mean_iou": 0.0,
+      "mean_start_err": 0.0,
+      "mean_end_err": 0.0,
+      "mean_boundary_error": 0.0,
+      "matches": [],
+      "unmatched_gt": [],
+      "unmatched_det": []
+    },
+    {
+      "candidate_id": "speech_B_level1_pause_compression",
+      "severity_level": 1,
+      "n_gt": 1,
+      "n_det": 3,
+      "true_positives": 0,
+      "false_positives": 3,
+      "false_negatives": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mean_iou": 0.0,
+      "mean_start_err": 0.0,
+      "mean_end_err": 0.0,
+      "mean_boundary_error": 0.0,
+      "matches": [],
+      "unmatched_gt": [
+        "flaw_01"
+      ],
+      "unmatched_det": [
+        "det_01",
+        "det_02",
+        "det_03"
+      ]
+    },
+    {
+      "candidate_id": "speech_B_level2_pacing_monotone",
+      "severity_level": 2,
+      "n_gt": 3,
+      "n_det": 7,
+      "true_positives": 2,
+      "false_positives": 5,
+      "false_negatives": 1,
+      "precision": 0.2857,
+      "recall": 0.6667,
+      "f1": 0.4,
+      "mean_iou": 0.7518,
+      "mean_start_err": 0.6085,
+      "mean_end_err": 0.1145,
+      "mean_boundary_error": 0.3615,
+      "matches": [
+        {
+          "gt_id": "flaw_01",
+          "det_id": "det_02",
+          "category": "pause",
+          "iou": 0.9024,
+          "start_err": 0.119,
+          "end_err": 0.133,
+          "center_offset": 0.007
+        },
+        {
+          "gt_id": "flaw_02",
+          "det_id": "det_05",
+          "category": "pacing",
+          "iou": 0.6012,
+          "start_err": 1.098,
+          "end_err": 0.096,
+          "center_offset": 0.501
+        }
+      ],
+      "unmatched_gt": [
+        "flaw_03"
+      ],
+      "unmatched_det": [
+        "det_01",
+        "det_03",
+        "det_04",
+        "det_06",
+        "det_07"
+      ]
+    },
+    {
+      "candidate_id": "speech_B_level3_botched",
+      "severity_level": 3,
+      "n_gt": 7,
+      "n_det": 15,
+      "true_positives": 4,
+      "false_positives": 11,
+      "false_negatives": 3,
+      "precision": 0.2667,
+      "recall": 0.5714,
+      "f1": 0.3636,
+      "mean_iou": 0.692,
+      "mean_start_err": 0.177,
+      "mean_end_err": 0.2652,
+      "mean_boundary_error": 0.2211,
+      "matches": [
+        {
+          "gt_id": "flaw_02",
+          "det_id": "det_06",
+          "category": "pause",
+          "iou": 0.8989,
+          "start_err": 0.198,
+          "end_err": 0.081,
+          "center_offset": 0.0585
+        },
+        {
+          "gt_id": "flaw_06",
+          "det_id": "det_09",
+          "category": "pause",
+          "iou": 0.8932,
+          "start_err": 0.199,
+          "end_err": 0.083,
+          "center_offset": 0.058
+        },
+        {
+          "gt_id": "flaw_01",
+          "det_id": "det_02",
+          "category": "pause",
+          "iou": 0.8384,
+          "start_err": 0.28,
+          "end_err": 0.176,
+          "center_offset": 0.052
+        },
+        {
+          "gt_id": "flaw_04",
+          "det_id": "det_07",
+          "category": "energy",
+          "iou": 0.1376,
+          "start_err": 0.031,
+          "end_err": 0.721,
+          "center_offset": 0.345
+        }
+      ],
+      "unmatched_gt": [
+        "flaw_03",
+        "flaw_05",
+        "flaw_07"
+      ],
+      "unmatched_det": [
+        "det_01",
+        "det_03",
+        "det_04",
+        "det_05",
+        "det_08",
+        "det_10",
+        "det_11",
+        "det_12",
+        "det_13",
+        "det_14",
+        "det_15"
+      ]
+    },
+    {
+      "candidate_id": "speech_C_level0_baseline",
+      "severity_level": 0,
+      "n_gt": 0,
+      "n_det": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "mean_iou": 0.0,
+      "mean_start_err": 0.0,
+      "mean_end_err": 0.0,
+      "mean_boundary_error": 0.0,
+      "matches": [],
+      "unmatched_gt": [],
+      "unmatched_det": []
+    },
+    {
+      "candidate_id": "speech_C_level1_subtle_pitch_flatten",
+      "severity_level": 1,
+      "n_gt": 1,
+      "n_det": 1,
+      "true_positives": 0,
+      "false_positives": 1,
+      "false_negatives": 1,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "mean_iou": 0.0,
+      "mean_start_err": 0.0,
+      "mean_end_err": 0.0,
+      "mean_boundary_error": 0.0,
+      "matches": [],
+      "unmatched_gt": [
+        "flaw_01"
+      ],
+      "unmatched_det": [
+        "det_01"
+      ]
+    },
+    {
+      "candidate_id": "speech_C_level2_pacing_monotone",
+      "severity_level": 2,
+      "n_gt": 3,
+      "n_det": 8,
+      "true_positives": 1,
+      "false_positives": 7,
+      "false_negatives": 2,
+      "precision": 0.125,
+      "recall": 0.3333,
+      "f1": 0.1818,
+      "mean_iou": 0.8761,
+      "mean_start_err": 0.203,
+      "mean_end_err": 0.107,
+      "mean_boundary_error": 0.155,
+      "matches": [
+        {
+          "gt_id": "flaw_01",
+          "det_id": "det_01",
+          "category": "pause",
+          "iou": 0.8761,
+          "start_err": 0.203,
+          "end_err": 0.107,
+          "center_offset": 0.048
+        }
+      ],
+      "unmatched_gt": [
+        "flaw_02",
+        "flaw_03"
+      ],
+      "unmatched_det": [
+        "det_02",
+        "det_03",
+        "det_04",
+        "det_05",
+        "det_06",
+        "det_07",
+        "det_08"
+      ]
+    },
+    {
+      "candidate_id": "speech_C_level3_botched",
+      "severity_level": 3,
+      "n_gt": 7,
+      "n_det": 12,
+      "true_positives": 5,
+      "false_positives": 7,
+      "false_negatives": 2,
+      "precision": 0.4167,
+      "recall": 0.7143,
+      "f1": 0.5263,
+      "mean_iou": 0.321,
+      "mean_start_err": 0.6996,
+      "mean_end_err": 0.504,
+      "mean_boundary_error": 0.6018,
+      "matches": [
+        {
+          "gt_id": "flaw_02",
+          "det_id": "det_04",
+          "category": "pause",
+          "iou": 0.8951,
+          "start_err": 0.244,
+          "end_err": 0.03,
+          "center_offset": 0.137
+        },
+        {
+          "gt_id": "flaw_01",
+          "det_id": "det_01",
+          "category": "pause",
+          "iou": 0.6432,
+          "start_err": 1.163,
+          "end_err": 0.101,
+          "center_offset": 0.531
+        },
+        {
+          "gt_id": "flaw_05",
+          "det_id": "det_06",
+          "category": "energy",
+          "iou": 0.0667,
+          "start_err": 0.259,
+          "end_err": 1.421,
+          "center_offset": 0.581
+        },
+        {
+          "gt_id": "flaw_03",
+          "det_id": "det_03",
+          "category": "energy",
+          "iou": 0.0,
+          "start_err": 1.236,
+          "end_err": 0.164,
+          "center_offset": 0.7
+        },
+        {
+          "gt_id": "flaw_04",
+          "det_id": "det_05",
+          "category": "energy",
+          "iou": 0.0,
+          "start_err": 0.596,
+          "end_err": 0.804,
+          "center_offset": 0.7
+        }
+      ],
+      "unmatched_gt": [
+        "flaw_06",
+        "flaw_07"
+      ],
+      "unmatched_det": [
+        "det_02",
+        "det_07",
+        "det_08",
+        "det_09",
+        "det_10",
+        "det_11",
+        "det_12"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "sample_id": "speech_B_level1_pause_compression",
+  "baseline_id": "speech_B_baseline",
+  "severity_level": 1,
+  "overall_score": 83.59,
+  "letter_grade": "B",
+  "dimension_scores": {
+    "pacing_score": 22.35,
+    "dynamic_energy_score": 15.81,
+    "tonal_variety_score": 22.47,
+    "pause_discipline_score": 22.96
+  },
+  "flaw_count_by_severity": {
+    "1": 0,
+    "2": 0,
+    "3": 2
+  },
+  "detailed_flaw_diagnoses": [
+    {
+      "flaw_id": "det_01",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 24.704,
+      "end_sec": 25.024,
+      "duration_sec": 0.32,
+      "severity_score": 0.8221,
+      "target_phrase": "that false",
+      "math_evidence": "Loudness surged by +21.9 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'that false'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 21.866,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 27.904,
+      "end_sec": 28.16,
+      "duration_sec": 0.256,
+      "severity_score": 0.9685,
+      "target_phrase": "is fragile",
+      "math_evidence": "Loudness surged by +23.6 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'is fragile'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 23.622,
+        "threshold_db": 12.0
+      }
+    }
+  ],
+  "executive_summary": "speech_B_level1_pause_compression (Level 1) earns 83.6/100 (B). Primary flag: energy/volume_spike near 27.9\u201328.2s \u2014 Uncontrolled acoustic burst on unstressed syllable 'is fragile'. Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+  "primary_causal_flag": "energy/volume_spike"
+}

@@ -1,0 +1,150 @@
+{
+  "candidate_id": "speech_A_level2_pacing_monotone",
+  "baseline_id": "speech_A_baseline",
+  "flaws": [
+    {
+      "flaw_id": "det_01",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 7.882,
+      "end_sec": 10.202,
+      "duration_sec": 2.32,
+      "severity_score": 0.3102499984487495,
+      "mathematical_evidence": {
+        "cand_pause_sec": 2.12,
+        "base_pause_sec": 0.0,
+        "delta_pause_sec": 2.12,
+        "mult_threshold": 3.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "pacing",
+      "sub_type": "dragging_cadence",
+      "start_sec": 9.404,
+      "end_sec": 10.788,
+      "duration_sec": 1.384,
+      "severity_score": 0.3402804152246733,
+      "mathematical_evidence": {
+        "pacing_ratio_median": 0.4799,
+        "threshold": 0.65
+      },
+      "target_phrase": "dots looking"
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 10.108,
+      "end_sec": 11.396,
+      "duration_sec": 1.288,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 58.057,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "dots looking forward."
+    },
+    {
+      "flaw_id": "det_04",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 12.124,
+      "end_sec": 12.868,
+      "duration_sec": 0.744,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 35.32,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "You can only connect"
+    },
+    {
+      "flaw_id": "det_05",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 13.244,
+      "end_sec": 14.148,
+      "duration_sec": 0.904,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "looking backward."
+    },
+    {
+      "flaw_id": "det_06",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 15.324,
+      "end_sec": 15.716,
+      "duration_sec": 0.392,
+      "severity_score": 0.7099262231587511,
+      "mathematical_evidence": {
+        "peak_delta_db": 20.519,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "have"
+    },
+    {
+      "flaw_id": "det_07",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 16.956,
+      "end_sec": 18.596,
+      "duration_sec": 1.64,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 59.045,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "somehow connect in your future."
+    },
+    {
+      "flaw_id": "det_08",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 19.068,
+      "end_sec": 21.156,
+      "duration_sec": 2.088,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 53.109,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "have to trust in something: your gut, destiny, life,"
+    },
+    {
+      "flaw_id": "det_09",
+      "category": "pacing",
+      "sub_type": "rushed_delivery",
+      "start_sec": 19.996,
+      "end_sec": 21.572,
+      "duration_sec": 1.576,
+      "severity_score": 0.285714280884354,
+      "mathematical_evidence": {
+        "pacing_ratio_median": 1.5714,
+        "threshold": 1.4,
+        "mean_wpm_cand": 190.91,
+        "mean_wpm_base": 120.17
+      },
+      "target_phrase": "gut, destiny, life, karma,"
+    }
+  ],
+  "residual_summary": {
+    "n_frames": 1219,
+    "mean_abs_energy_delta": 11.6442,
+    "mean_pacing_ratio": 0.999,
+    "monotone_frame_fraction": 0.0057,
+    "rush_frame_fraction": 0.0648,
+    "drag_frame_fraction": 0.0304,
+    "n_detected_flaws": 9,
+    "categories": [
+      "energy",
+      "pacing",
+      "pause"
+    ]
+  }
+}

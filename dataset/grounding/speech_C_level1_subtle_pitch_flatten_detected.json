@@ -1,0 +1,32 @@
+{
+  "candidate_id": "speech_C_level1_subtle_pitch_flatten",
+  "baseline_id": "speech_C_baseline",
+  "flaws": [
+    {
+      "flaw_id": "det_01",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 24.188,
+      "end_sec": 24.772,
+      "duration_sec": 0.584,
+      "severity_score": 0.2932984166296157,
+      "mathematical_evidence": {
+        "peak_delta_db": 15.52,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "touched the"
+    }
+  ],
+  "residual_summary": {
+    "n_frames": 964,
+    "mean_abs_energy_delta": 1.6993,
+    "mean_pacing_ratio": 0.9892,
+    "monotone_frame_fraction": 0.0,
+    "rush_frame_fraction": 0.0,
+    "drag_frame_fraction": 0.0062,
+    "n_detected_flaws": 1,
+    "categories": [
+      "energy"
+    ]
+  }
+}

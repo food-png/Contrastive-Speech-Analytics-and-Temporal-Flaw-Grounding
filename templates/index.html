@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VocalMetrics AI</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%99%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/static/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/wavesurfer.js@7.8.6/dist/wavesurfer.min.js"></script>
+  <script src="https://unpkg.com/wavesurfer.js@7.8.6/dist/plugins/regions.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/FontLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/geometries/TextGeometry.js"></script>
+</head>
+<body class="min-h-screen text-slate-100">
+  <nav class="sticky top-0 z-40 border-b border-white/10 bg-slate-950/75 shadow-[0_8px_30px_rgba(2,6,23,0.45)] backdrop-blur-md">
+    <div class="mx-auto flex max-w-[1440px] flex-wrap items-center gap-3 px-4 py-3 md:px-6">
+      <label for="sample-select" class="text-sm font-medium text-slate-200">Preset Evaluation Pairs:</label>
+      <select id="sample-select" class="min-w-[280px] flex-1 rounded-lg border border-slate-700 bg-slate-950/80 px-3 py-2 text-sm text-slate-100">
+        <option value="">Loading samples...</option>
+      </select>
+      <button id="upload-modal-btn" type="button" class="bg-slate-800/80 hover:bg-slate-700 text-white rounded-lg px-4 py-2 border border-slate-700 transition-all active:scale-95">📁 Upload New Audio (.wav)</button>
+    </div>
+  </nav>
+
+  <div id="upload-modal" class="fixed inset-0 z-50 items-center justify-center bg-slate-950/70 p-4 backdrop-blur-sm" style="display:none">
+    <form id="upload-form" class="w-full max-w-md rounded-2xl border border-slate-700 bg-slate-900/95 p-5 shadow-2xl">
+      <h2 class="text-lg font-semibold text-white">Upload new audio</h2>
+      <p class="mt-1 text-sm text-slate-400">Run the candidate against a stored baseline transcript.</p>
+      <div class="mt-4">
+        <button id="upload-browse" type="button" class="bg-slate-800/80 hover:bg-slate-700 text-white rounded-lg px-4 py-2 border border-slate-700 transition-all active:scale-95">Choose WAV file</button>
+        <p id="upload-filename" class="mt-2 min-h-[1.25rem] text-sm text-slate-300">No file selected</p>
+        <input id="upload-audio" name="audio" type="file" accept=".wav,audio/wav,audio/x-wav" class="sr-only" />
+      </div>
+      <label class="mt-4 block text-xs uppercase tracking-wider text-slate-400" for="upload-baseline">
+        Baseline transcript
+        <select id="upload-baseline" name="baseline_id" class="mt-1 w-full rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-slate-100">
+          <option value="speech_A_baseline">speech_A</option>
+          <option value="speech_B_baseline">speech_B</option>
+          <option value="speech_C_baseline">speech_C</option>
+        </select>
+      </label>
+      <div class="mt-5 flex justify-end gap-2">
+        <button id="upload-cancel" type="button" class="rounded-lg border border-slate-700 px-4 py-2 text-sm text-slate-300 hover:bg-slate-800">Cancel</button>
+        <button type="submit" class="rounded-lg bg-cyan-400 px-4 py-2 text-sm font-semibold text-slate-950 hover:bg-cyan-300">Run Pipeline</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="mx-auto max-w-[1440px] px-4 py-5 md:px-6">
+    <header class="mb-4 flex flex-wrap items-start justify-between gap-3">
+      <div>
+        <h1 class="text-2xl font-semibold tracking-tight text-white md:text-3xl">VocalMetrics AI</h1>
+        <p class="mt-2 inline-flex max-w-xl rounded-full border border-cyan-400/30 bg-cyan-400/10 px-3 py-1 text-xs text-cyan-100 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] backdrop-blur">
+          Track C: Contrastive Speech Analytics &amp; Temporal Flaw Grounding
+        </p>
+      </div>
+      <div class="flex flex-col items-end gap-1">
+        <div class="inline-flex items-center gap-2 rounded-full border border-emerald-400/40 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-200">
+          <span class="inline-block h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_8px_#34d399]"></span>
+          Engine Online | Ready
+        </div>
+        <div id="status" class="min-h-[1rem] text-xs text-slate-400">Loading samples…</div>
+      </div>
+    </header>
+
+    <section class="mb-4 overflow-hidden rounded-2xl border border-cyan-400/20 bg-slate-950/70 shadow-[0_0_40px_rgba(34,211,238,0.08)]">
+      <canvas id="hud-canvas"></canvas>
+    </section>
+
+    <p id="summary" class="mb-4 min-h-[1.25rem] text-sm leading-relaxed text-slate-300"></p>
+
+    <section class="mb-4 grid gap-4 lg:grid-cols-[1fr_280px]">
+      <div class="space-y-3">
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/60 p-3">
+          <div class="mb-2 text-xs uppercase tracking-wider text-cyan-200">Candidate waveform</div>
+          <div class="mb-3 flex min-h-[52px] flex-wrap items-center gap-2">
+            <button id="btn-play" type="button" aria-pressed="false" class="min-w-[7.5rem] bg-slate-800/80 hover:bg-slate-700 text-white rounded-lg px-4 py-2 border border-slate-700 transition-all active:scale-95">▶ Play</button>
+            <button id="btn-stop" type="button" class="bg-slate-800/80 hover:bg-slate-700 text-white rounded-lg px-4 py-2 border border-slate-700 transition-all active:scale-95">⏹ Stop</button>
+            <span id="clock" class="min-w-[11rem] font-mono text-sm tabular-nums text-slate-200">00:00.0 / 00:00.0</span>
+            <label class="flex items-center gap-2 text-xs text-slate-400">
+              Speed
+              <select id="playback-rate" class="rounded-lg border border-slate-700 bg-slate-950 px-2 py-2 text-sm text-slate-100">
+                <option value="0.75">0.75x</option>
+                <option value="1" selected>1.0x (Normal)</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+              </select>
+            </label>
+            <button id="btn-mute" type="button" aria-pressed="false" class="bg-slate-800/80 hover:bg-slate-700 text-white rounded-lg px-4 py-2 border border-slate-700 transition-all active:scale-95">Mute</button>
+            <label class="flex items-center gap-2 text-xs text-slate-400">
+              Vol
+              <input id="volume" type="range" min="0" max="100" value="100" class="h-2 w-28 accent-cyan-400" />
+            </label>
+          </div>
+          <div id="wave-candidate" class="wave-box h-24"></div>
+        </div>
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/60 p-3">
+          <div class="mb-2 text-xs uppercase tracking-wider text-emerald-200">Baseline reference</div>
+          <div class="mb-3 flex min-h-[44px] flex-wrap items-center gap-2">
+            <button id="btn-baseline-play" type="button" aria-pressed="false" aria-label="Play baseline" class="bg-slate-800/80 hover:bg-slate-700 text-white rounded-lg px-4 py-2 border border-slate-700 transition-all active:scale-95">▶ Play</button>
+            <button id="btn-baseline-stop" type="button" class="bg-slate-800/80 hover:bg-slate-700 text-white rounded-lg px-4 py-2 border border-slate-700 transition-all active:scale-95">⏹ Stop</button>
+            <label class="flex items-center gap-2 rounded-lg border border-emerald-400/30 bg-emerald-400/10 px-3 py-2 text-sm text-emerald-100">
+              <input id="sync-baseline" type="checkbox" class="accent-emerald-400" />
+              Sync play baseline
+            </label>
+            <button id="btn-baseline-mute" type="button" aria-pressed="false" class="bg-slate-800/80 hover:bg-slate-700 text-white rounded-lg px-4 py-2 border border-slate-700 transition-all active:scale-95">Mute</button>
+            <label class="flex items-center gap-2 text-xs text-slate-400">
+              Vol
+              <input id="baseline-volume" type="range" min="0" max="100" value="80" class="h-2 w-28 accent-emerald-400" />
+            </label>
+          </div>
+          <div id="wave-baseline" class="wave-box h-20"></div>
+        </div>
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/60 p-3">
+          <div class="mb-2 text-xs uppercase tracking-wider text-slate-400">Pitch · energy · articulation</div>
+          <div class="relative h-[320px]">
+            <canvas id="metric-chart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <aside class="space-y-3">
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+          <h2 class="mb-3 text-xs uppercase tracking-wider text-slate-400">Rubric · 100</h2>
+          <div id="meters" class="space-y-3"></div>
+        </div>
+        <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+          <h2 class="mb-1 text-xs uppercase tracking-wider text-slate-400">Region key</h2>
+          <ul class="space-y-1 text-xs text-slate-300">
+            <li><span class="mr-2 inline-block h-2 w-2 rounded-full bg-rose-500"></span>Severe · level 3 / spike</li>
+            <li><span class="mr-2 inline-block h-2 w-2 rounded-full bg-amber-400"></span>Moderate · pacing / level 2</li>
+            <li><span class="mr-2 inline-block h-2 w-2 rounded-full bg-cyan-400"></span>Minor · level 1</li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+
+    <section>
+      <h2 class="mb-2 text-xs uppercase tracking-[0.2em] text-slate-400">Detected flaws</h2>
+      <div id="flaw-list" class="grid gap-3 md:grid-cols-2"></div>
+    </section>
+  </div>
+  <script src="/static/app.js?v=5"></script>
+</body>
+</html>

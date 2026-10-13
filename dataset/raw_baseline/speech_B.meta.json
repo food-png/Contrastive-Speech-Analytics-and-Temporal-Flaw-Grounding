@@ -1,0 +1,38 @@
+{
+  "baseline_id": "speech_B_baseline",
+  "sample_key": "B",
+  "style": "parliamentary_debate",
+  "source": "edge_tts:en-GB-RyanNeural",
+  "voice": "en-GB-RyanNeural",
+  "duration_sec": 37.128,
+  "sample_rate": 16000,
+  "channels": 1,
+  "bit_depth": 16,
+  "peak_dbfs": -1.0,
+  "transcript_path": "dataset/raw_baseline/speech_B.txt",
+  "raw_audio_path": "dataset/raw_baseline/speech_B.wav",
+  "processed_audio_path": "dataset/processed_baseline/speech_B_baseline.wav",
+  "phrase_windows": {
+    "clause_1": {
+      "start_sec": 4.641,
+      "end_sec": 9.282,
+      "text": "transparency forces leaders to justify every policy choice"
+    },
+    "clause_2": {
+      "start_sec": 12.376,
+      "end_sec": 17.017,
+      "text": "structured opposition exposes weak arguments"
+    },
+    "clause_3": {
+      "start_sec": 21.658,
+      "end_sec": 26.299,
+      "text": "Rushed legislation is fragile legislation"
+    },
+    "clause_4": {
+      "start_sec": 29.393,
+      "end_sec": 34.034,
+      "text": "Vote for deliberation. Vote for accountability"
+    }
+  },
+  "generated_at": "2026-10-13T13:46:46.675579+00:00"
+}

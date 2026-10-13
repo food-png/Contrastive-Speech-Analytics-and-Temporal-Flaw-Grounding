@@ -1,0 +1,507 @@
+{
+  "sample_id": "speech_B_level1_pause_compression",
+  "audio_path": "dataset/flawed_spectrum/speech_B_level1_pause_compression.wav",
+  "words": [
+    {
+      "word": "Mister",
+      "start_sec": 0.2601,
+      "end_sec": 0.5002,
+      "confidence": 0.21757543242226043
+    },
+    {
+      "word": "Speaker,",
+      "start_sec": 0.5402,
+      "end_sec": 0.9203,
+      "confidence": 0.8823519987719399
+    },
+    {
+      "word": "this",
+      "start_sec": 1.0604,
+      "end_sec": 1.2204,
+      "confidence": 0.9985180050134659
+    },
+    {
+      "word": "house",
+      "start_sec": 1.2804,
+      "end_sec": 1.5205,
+      "confidence": 0.9777117882456098
+    },
+    {
+      "word": "believes",
+      "start_sec": 1.5605,
+      "end_sec": 1.9607,
+      "confidence": 0.9992905780673027
+    },
+    {
+      "word": "that",
+      "start_sec": 1.9807,
+      "end_sec": 2.1207,
+      "confidence": 0.9748411178588867
+    },
+    {
+      "word": "open",
+      "start_sec": 2.2008,
+      "end_sec": 2.4008,
+      "confidence": 0.9995367974042892
+    },
+    {
+      "word": "debate",
+      "start_sec": 2.4609,
+      "end_sec": 2.781,
+      "confidence": 0.9570683737595876
+    },
+    {
+      "word": "strengthens",
+      "start_sec": 2.841,
+      "end_sec": 3.3612,
+      "confidence": 0.9606744188528794
+    },
+    {
+      "word": "democracy.",
+      "start_sec": 3.4012,
+      "end_sec": 3.9614,
+      "confidence": 0.9487552179230584
+    },
+    {
+      "word": "First,",
+      "start_sec": 4.9617,
+      "end_sec": 5.3419,
+      "confidence": 0.07754127755761146
+    },
+    {
+      "word": "transparency",
+      "start_sec": 5.602,
+      "end_sec": 6.2422,
+      "confidence": 0.1666402705013752
+    },
+    {
+      "word": "forces",
+      "start_sec": 6.3222,
+      "end_sec": 6.7023,
+      "confidence": 0.0679279057464252
+    },
+    {
+      "word": "leaders",
+      "start_sec": 6.7423,
+      "end_sec": 7.0024,
+      "confidence": 0.026035460211070522
+    },
+    {
+      "word": "to",
+      "start_sec": 7.0224,
+      "end_sec": 7.1025,
+      "confidence": 0.09216446802020073
+    },
+    {
+      "word": "justify",
+      "start_sec": 7.1625,
+      "end_sec": 7.6227,
+      "confidence": 0.12705638206430844
+    },
+    {
+      "word": "every",
+      "start_sec": 7.7427,
+      "end_sec": 7.9028,
+      "confidence": 0.1228270941413939
+    },
+    {
+      "word": "policy",
+      "start_sec": 7.9428,
+      "end_sec": 8.2429,
+      "confidence": 0.32365365450580913
+    },
+    {
+      "word": "choice",
+      "start_sec": 8.3229,
+      "end_sec": 8.603,
+      "confidence": 0.14860902540385723
+    },
+    {
+      "word": "in",
+      "start_sec": 8.623,
+      "end_sec": 8.703,
+      "confidence": 0.2994793951511383
+    },
+    {
+      "word": "public.",
+      "start_sec": 8.743,
+      "end_sec": 9.1232,
+      "confidence": 0.42989574869473773
+    },
+    {
+      "word": "Second,",
+      "start_sec": 10.2236,
+      "end_sec": 10.6037,
+      "confidence": 0.6317209253708521
+    },
+    {
+      "word": "structured",
+      "start_sec": 10.8638,
+      "end_sec": 11.3039,
+      "confidence": 0.9522911310195923
+    },
+    {
+      "word": "opposition",
+      "start_sec": 11.344,
+      "end_sec": 11.7841,
+      "confidence": 0.9990030586719513
+    },
+    {
+      "word": "exposes",
+      "start_sec": 11.8441,
+      "end_sec": 12.3443,
+      "confidence": 0.9992049932479858
+    },
+    {
+      "word": "weak",
+      "start_sec": 12.4043,
+      "end_sec": 12.5844,
+      "confidence": 0.8531594723463058
+    },
+    {
+      "word": "arguments",
+      "start_sec": 12.6844,
+      "end_sec": 13.0846,
+      "confidence": 0.9848698556423188
+    },
+    {
+      "word": "before",
+      "start_sec": 13.1246,
+      "end_sec": 13.4247,
+      "confidence": 0.9707695245742798
+    },
+    {
+      "word": "they",
+      "start_sec": 13.4447,
+      "end_sec": 13.5647,
+      "confidence": 0.9527335047721863
+    },
+    {
+      "word": "become",
+      "start_sec": 13.6047,
+      "end_sec": 13.9248,
+      "confidence": 0.9594461236681256
+    },
+    {
+      "word": "law.",
+      "start_sec": 13.9649,
+      "end_sec": 14.1649,
+      "confidence": 0.9376875758171082
+    },
+    {
+      "word": "Third,",
+      "start_sec": 15.2853,
+      "end_sec": 15.6054,
+      "confidence": 0.8892167466027396
+    },
+    {
+      "word": "citizens",
+      "start_sec": 15.8655,
+      "end_sec": 16.2857,
+      "confidence": 0.9975810572504997
+    },
+    {
+      "word": "who",
+      "start_sec": 16.3057,
+      "end_sec": 16.3857,
+      "confidence": 0.9252529591321945
+    },
+    {
+      "word": "hear",
+      "start_sec": 16.4857,
+      "end_sec": 16.6658,
+      "confidence": 0.9664711356163025
+    },
+    {
+      "word": "both",
+      "start_sec": 16.7658,
+      "end_sec": 16.9859,
+      "confidence": 0.9993565082550049
+    },
+    {
+      "word": "sides",
+      "start_sec": 17.0459,
+      "end_sec": 17.4061,
+      "confidence": 0.992985018662044
+    },
+    {
+      "word": "make",
+      "start_sec": 17.4461,
+      "end_sec": 17.6461,
+      "confidence": 0.9960235118865967
+    },
+    {
+      "word": "sharper,",
+      "start_sec": 17.6862,
+      "end_sec": 18.0663,
+      "confidence": 0.9910927265882492
+    },
+    {
+      "word": "more",
+      "start_sec": 18.3464,
+      "end_sec": 18.5465,
+      "confidence": 0.9479678869247437
+    },
+    {
+      "word": "informed",
+      "start_sec": 18.5665,
+      "end_sec": 19.0066,
+      "confidence": 0.9097599536180496
+    },
+    {
+      "word": "decisions.",
+      "start_sec": 19.0266,
+      "end_sec": 19.6068,
+      "confidence": 0.976942104101181
+    },
+    {
+      "word": "Our",
+      "start_sec": 20.6872,
+      "end_sec": 20.8072,
+      "confidence": 0.9992681940396627
+    },
+    {
+      "word": "opponents",
+      "start_sec": 20.8673,
+      "end_sec": 21.2874,
+      "confidence": 0.984848333729638
+    },
+    {
+      "word": "claim",
+      "start_sec": 21.3474,
+      "end_sec": 21.5875,
+      "confidence": 0.9990830302238465
+    },
+    {
+      "word": "speed",
+      "start_sec": 21.6675,
+      "end_sec": 21.9276,
+      "confidence": 0.9992947936058044
+    },
+    {
+      "word": "matters",
+      "start_sec": 21.9877,
+      "end_sec": 22.3078,
+      "confidence": 0.9989043644496373
+    },
+    {
+      "word": "more",
+      "start_sec": 22.3678,
+      "end_sec": 22.5078,
+      "confidence": 0.8283880576491356
+    },
+    {
+      "word": "than",
+      "start_sec": 22.5278,
+      "end_sec": 22.6279,
+      "confidence": 0.9954374432563782
+    },
+    {
+      "word": "scrutiny.",
+      "start_sec": 22.6879,
+      "end_sec": 23.1481,
+      "confidence": 0.960248695479499
+    },
+    {
+      "word": "We",
+      "start_sec": 24.2084,
+      "end_sec": 24.2685,
+      "confidence": 0.9991884529590607
+    },
+    {
+      "word": "reject",
+      "start_sec": 24.3285,
+      "end_sec": 24.6686,
+      "confidence": 0.9989794194698334
+    },
+    {
+      "word": "that",
+      "start_sec": 24.6886,
+      "end_sec": 24.8286,
+      "confidence": 0.9171348710854849
+    },
+    {
+      "word": "false",
+      "start_sec": 24.9087,
+      "end_sec": 25.1488,
+      "confidence": 0.8774847507476806
+    },
+    {
+      "word": "tradeoff.",
+      "start_sec": 25.1888,
+      "end_sec": 25.6889,
+      "confidence": 0.9185323901474476
+    },
+    {
+      "word": "Rushed",
+      "start_sec": 26.8493,
+      "end_sec": 27.1294,
+      "confidence": 0.5209641762194224
+    },
+    {
+      "word": "legislation",
+      "start_sec": 27.1495,
+      "end_sec": 27.7697,
+      "confidence": 0.9121044874191284
+    },
+    {
+      "word": "is",
+      "start_sec": 27.8697,
+      "end_sec": 27.9697,
+      "confidence": 0.9822242856025696
+    },
+    {
+      "word": "fragile",
+      "start_sec": 28.0298,
+      "end_sec": 28.5299,
+      "confidence": 0.8398905055863517
+    },
+    {
+      "word": "legislation.",
+      "start_sec": 28.5699,
+      "end_sec": 29.2902,
+      "confidence": 0.9842930381948297
+    },
+    {
+      "word": "Vote",
+      "start_sec": 30.3906,
+      "end_sec": 30.5907,
+      "confidence": 0.8953169137239456
+    },
+    {
+      "word": "for",
+      "start_sec": 30.6307,
+      "end_sec": 30.7107,
+      "confidence": 0.9146022001902262
+    },
+    {
+      "word": "deliberation.",
+      "start_sec": 30.7507,
+      "end_sec": 31.4309,
+      "confidence": 0.9231036305427551
+    },
+    {
+      "word": "Vote",
+      "start_sec": 32.5313,
+      "end_sec": 32.7314,
+      "confidence": 0.6964101791381836
+    },
+    {
+      "word": "for",
+      "start_sec": 32.7714,
+      "end_sec": 32.8714,
+      "confidence": 0.7626239458719889
+    },
+    {
+      "word": "accountability.",
+      "start_sec": 32.9115,
+      "end_sec": 33.6117,
+      "confidence": 0.8613011028085437
+    },
+    {
+      "word": "Vote",
+      "start_sec": 34.7521,
+      "end_sec": 34.9522,
+      "confidence": 0.518550269305706
+    },
+    {
+      "word": "for",
+      "start_sec": 34.9922,
+      "end_sec": 35.0722,
+      "confidence": 0.5381750663121542
+    },
+    {
+      "word": "this",
+      "start_sec": 35.1122,
+      "end_sec": 35.2723,
+      "confidence": 0.5822643786668777
+    },
+    {
+      "word": "motion.",
+      "start_sec": 35.3323,
+      "end_sec": 35.7124,
+      "confidence": 0.6058883766333262
+    }
+  ],
+  "pauses": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 0.2601,
+      "duration_sec": 0.2601
+    },
+    {
+      "start_sec": 3.9614,
+      "end_sec": 4.9617,
+      "duration_sec": 1.0003
+    },
+    {
+      "start_sec": 5.3419,
+      "end_sec": 5.602,
+      "duration_sec": 0.2601
+    },
+    {
+      "start_sec": 9.1232,
+      "end_sec": 10.2236,
+      "duration_sec": 1.1004
+    },
+    {
+      "start_sec": 10.6037,
+      "end_sec": 10.8638,
+      "duration_sec": 0.2601
+    },
+    {
+      "start_sec": 14.1649,
+      "end_sec": 15.2853,
+      "duration_sec": 1.1204
+    },
+    {
+      "start_sec": 15.6054,
+      "end_sec": 15.8655,
+      "duration_sec": 0.2601
+    },
+    {
+      "start_sec": 18.0663,
+      "end_sec": 18.3464,
+      "duration_sec": 0.2801
+    },
+    {
+      "start_sec": 19.6068,
+      "end_sec": 20.6872,
+      "duration_sec": 1.0804
+    },
+    {
+      "start_sec": 23.1481,
+      "end_sec": 24.2084,
+      "duration_sec": 1.0603
+    },
+    {
+      "start_sec": 25.6889,
+      "end_sec": 26.8493,
+      "duration_sec": 1.1604
+    },
+    {
+      "start_sec": 29.2902,
+      "end_sec": 30.3906,
+      "duration_sec": 1.1004
+    },
+    {
+      "start_sec": 31.4309,
+      "end_sec": 32.5313,
+      "duration_sec": 1.1004
+    },
+    {
+      "start_sec": 33.6117,
+      "end_sec": 34.7521,
+      "duration_sec": 1.1404
+    },
+    {
+      "start_sec": 35.7124,
+      "end_sec": 36.6127,
+      "duration_sec": 0.9003
+    }
+  ],
+  "transcript_path": "dataset/raw_baseline/speech_B.txt",
+  "duration_sec": 36.6127,
+  "backend": "mms (mean_conf=0.781)",
+  "device": "cpu"
+}

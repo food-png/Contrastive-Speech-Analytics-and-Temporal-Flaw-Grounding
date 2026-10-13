@@ -1,0 +1,38 @@
+{
+  "baseline_id": "speech_A_baseline",
+  "sample_key": "A",
+  "style": "persuasive_oratory",
+  "source": "edge_tts:en-US-GuyNeural",
+  "voice": "en-US-GuyNeural",
+  "duration_sec": 38.592,
+  "sample_rate": 16000,
+  "channels": 1,
+  "bit_depth": 16,
+  "peak_dbfs": -1.0,
+  "transcript_path": "dataset/raw_baseline/speech_A.txt",
+  "raw_audio_path": "dataset/raw_baseline/speech_A.wav",
+  "processed_audio_path": "dataset/processed_baseline/speech_A_baseline.wav",
+  "phrase_windows": {
+    "clause_1": {
+      "start_sec": 5.937,
+      "end_sec": 10.39,
+      "text": "You cannot connect the dots looking forward"
+    },
+    "clause_2": {
+      "start_sec": 16.327,
+      "end_sec": 20.78,
+      "text": "to follow your heart and intuition"
+    },
+    "clause_3": {
+      "start_sec": 22.265,
+      "end_sec": 26.718,
+      "text": "they somehow already know what you truly want to become"
+    },
+    "clause_4": {
+      "start_sec": 29.686,
+      "end_sec": 34.139,
+      "text": "Stay hungry. Stay foolish"
+    }
+  },
+  "generated_at": "2026-10-13T13:46:45.164889+00:00"
+}

@@ -1,0 +1,41 @@
+{
+  "sample_id": "speech_C_level1_subtle_pitch_flatten",
+  "baseline_id": "speech_C_baseline",
+  "severity_level": 1,
+  "overall_score": 88.72,
+  "letter_grade": "B",
+  "dimension_scores": {
+    "pacing_score": 22.96,
+    "dynamic_energy_score": 21.84,
+    "tonal_variety_score": 23.1,
+    "pause_discipline_score": 20.82
+  },
+  "flaw_count_by_severity": {
+    "1": 1,
+    "2": 0,
+    "3": 0
+  },
+  "detailed_flaw_diagnoses": [
+    {
+      "flaw_id": "det_01",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 24.288,
+      "end_sec": 24.672,
+      "duration_sec": 0.384,
+      "severity_score": 0.2933,
+      "target_phrase": "touched the",
+      "math_evidence": "Loudness surged by +15.5 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'touched the'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 15.52,
+        "threshold_db": 12.0
+      }
+    }
+  ],
+  "executive_summary": "speech_C_level1_subtle_pitch_flatten (Level 1) earns 88.7/100 (B). Primary flag: energy/volume_spike near 24.3\u201324.7s \u2014 Uncontrolled acoustic burst on unstressed syllable 'touched the'. Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+  "primary_causal_flag": "energy/volume_spike"
+}

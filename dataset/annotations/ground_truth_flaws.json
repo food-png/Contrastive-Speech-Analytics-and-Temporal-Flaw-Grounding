@@ -1,0 +1,570 @@
+{
+  "dataset_version": "1.0.0",
+  "generated_at": "2026-10-13T13:47:03.463905+00:00",
+  "seed": 42,
+  "crossfade_ms": 9.0,
+  "sample_rate": 16000,
+  "samples": [
+    {
+      "sample_id": "speech_A_level0_baseline",
+      "baseline_id": "speech_A_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_A_level0_baseline.wav",
+      "transcript_path": "dataset/raw_baseline/speech_A.txt",
+      "duration_sec": 38.592,
+      "severity_level": 0,
+      "injected_flaws": []
+    },
+    {
+      "sample_id": "speech_A_level1_subtle_pitch_flatten",
+      "baseline_id": "speech_A_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_A_level1_subtle_pitch_flatten.wav",
+      "transcript_path": "dataset/raw_baseline/speech_A.txt",
+      "duration_sec": 38.574,
+      "severity_level": 1,
+      "injected_flaws": [
+        {
+          "flaw_id": "flaw_01",
+          "category": "pitch",
+          "sub_type": "subtle_flattening",
+          "start_sec": 16.327,
+          "end_sec": 20.78,
+          "target_phrase": "to follow your heart and intuition",
+          "parameters_applied": {
+            "f0_std_suppression": 0.35,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Mild reduction in local F0 variance over a single clause; still near-natural."
+        }
+      ]
+    },
+    {
+      "sample_id": "speech_A_level2_pacing_monotone",
+      "baseline_id": "speech_A_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_A_level2_pacing_monotone.wav",
+      "transcript_path": "dataset/raw_baseline/speech_A.txt",
+      "duration_sec": 38.989,
+      "severity_level": 2,
+      "injected_flaws": [
+        {
+          "flaw_id": "flaw_01",
+          "category": "silence",
+          "sub_type": "awkward_dead_air",
+          "start_sec": 8.164,
+          "end_sec": 10.195,
+          "target_phrase": "You cannot connect the dots looking forward",
+          "parameters_applied": {
+            "silence_duration_sec": 2.031,
+            "insert_at_sec": 8.164,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unprompted mid-clause dead silence with cosine cross-faded edges; timeline shifted thereafter."
+        },
+        {
+          "flaw_id": "flaw_02",
+          "category": "pacing",
+          "sub_type": "rushed_delivery",
+          "start_sec": 18.358,
+          "end_sec": 21.231,
+          "target_phrase": "to follow your heart and intuition",
+          "parameters_applied": {
+            "time_stretch_factor": 1.55,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Sudden drop in syllable duration and compressed pause intervals."
+        },
+        {
+          "flaw_id": "flaw_03",
+          "category": "pitch",
+          "sub_type": "monotone_flattening",
+          "start_sec": 22.716,
+          "end_sec": 27.169,
+          "target_phrase": "they somehow already know what you truly want to become",
+          "parameters_applied": {
+            "f0_std_suppression": 0.8,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Zero pitch deviation; F0 contour approaches variance of zero."
+        }
+      ]
+    },
+    {
+      "sample_id": "speech_A_level3_botched",
+      "baseline_id": "speech_A_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_A_level3_botched.wav",
+      "transcript_path": "dataset/raw_baseline/speech_A.txt",
+      "duration_sec": 43.482,
+      "severity_level": 3,
+      "injected_flaws": [
+        {
+          "flaw_id": "flaw_01",
+          "category": "silence",
+          "sub_type": "severe_hesitation",
+          "start_sec": 6.937,
+          "end_sec": 9.459,
+          "target_phrase": "You cannot connect the dots looking forward",
+          "parameters_applied": {
+            "silence_duration_sec": 2.522,
+            "insert_at_sec": 6.937,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unnatural hesitation pause exceeding 2.0 seconds with soft-edged splice."
+        },
+        {
+          "flaw_id": "flaw_02",
+          "category": "silence",
+          "sub_type": "severe_hesitation",
+          "start_sec": 19.649,
+          "end_sec": 21.85,
+          "target_phrase": "to follow your heart and intuition",
+          "parameters_applied": {
+            "silence_duration_sec": 2.201,
+            "insert_at_sec": 19.649,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unnatural hesitation pause exceeding 2.0 seconds with soft-edged splice."
+        },
+        {
+          "flaw_id": "flaw_03",
+          "category": "energy",
+          "sub_type": "volume_spike",
+          "start_sec": 19.847,
+          "end_sec": 19.967,
+          "target_phrase": "to follow your heart and intuition",
+          "parameters_applied": {
+            "gain_db": 12.0,
+            "clip_risk": true
+          },
+          "expected_acoustic_signature": "Erratic +12 dB burst on unstressed fragment; transient clip-risk energy spike."
+        },
+        {
+          "flaw_id": "flaw_04",
+          "category": "energy",
+          "sub_type": "volume_spike",
+          "start_sec": 21.843,
+          "end_sec": 21.963,
+          "target_phrase": "to follow your heart and intuition",
+          "parameters_applied": {
+            "gain_db": 12.0,
+            "clip_risk": true
+          },
+          "expected_acoustic_signature": "Erratic +12 dB burst on unstressed fragment; transient clip-risk energy spike."
+        },
+        {
+          "flaw_id": "flaw_05",
+          "category": "energy",
+          "sub_type": "volume_spike",
+          "start_sec": 23.84,
+          "end_sec": 23.96,
+          "target_phrase": "to follow your heart and intuition",
+          "parameters_applied": {
+            "gain_db": 12.0,
+            "clip_risk": true
+          },
+          "expected_acoustic_signature": "Erratic +12 dB burst on unstressed fragment; transient clip-risk energy spike."
+        },
+        {
+          "flaw_id": "flaw_06",
+          "category": "silence",
+          "sub_type": "severe_hesitation",
+          "start_sec": 27.488,
+          "end_sec": 29.773,
+          "target_phrase": "they somehow already know what you truly want to become",
+          "parameters_applied": {
+            "silence_duration_sec": 2.285,
+            "insert_at_sec": 27.488,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unnatural hesitation pause exceeding 2.0 seconds with soft-edged splice."
+        },
+        {
+          "flaw_id": "flaw_07",
+          "category": "compound",
+          "sub_type": "hyperspeed_pitch_collapse",
+          "start_sec": 36.694,
+          "end_sec": 39.101,
+          "target_phrase": "Stay hungry. Stay foolish",
+          "parameters_applied": {
+            "time_stretch_factor": 1.85,
+            "f0_std_suppression": 1.0,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Hyper-accelerated cadence (>1.8\u00d7) with complete pitch-range collapse to near-zero F0 variance."
+        }
+      ]
+    },
+    {
+      "sample_id": "speech_B_level0_baseline",
+      "baseline_id": "speech_B_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_B_level0_baseline.wav",
+      "transcript_path": "dataset/raw_baseline/speech_B.txt",
+      "duration_sec": 37.128,
+      "severity_level": 0,
+      "injected_flaws": []
+    },
+    {
+      "sample_id": "speech_B_level1_pause_compression",
+      "baseline_id": "speech_B_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_B_level1_pause_compression.wav",
+      "transcript_path": "dataset/raw_baseline/speech_B.txt",
+      "duration_sec": 36.613,
+      "severity_level": 1,
+      "injected_flaws": [
+        {
+          "flaw_id": "flaw_01",
+          "category": "pacing",
+          "sub_type": "pause_compression",
+          "start_sec": 4.641,
+          "end_sec": 8.785,
+          "target_phrase": "transparency forces leaders to justify every policy choice",
+          "parameters_applied": {
+            "time_stretch_factor": 1.12,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Slightly compressed pause intervals and reduced syllable duration in one clause."
+        }
+      ]
+    },
+    {
+      "sample_id": "speech_B_level2_pacing_monotone",
+      "baseline_id": "speech_B_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_B_level2_pacing_monotone.wav",
+      "transcript_path": "dataset/raw_baseline/speech_B.txt",
+      "duration_sec": 37.757,
+      "severity_level": 2,
+      "injected_flaws": [
+        {
+          "flaw_id": "flaw_01",
+          "category": "silence",
+          "sub_type": "awkward_dead_air",
+          "start_sec": 6.962,
+          "end_sec": 9.291,
+          "target_phrase": "transparency forces leaders to justify every policy choice",
+          "parameters_applied": {
+            "silence_duration_sec": 2.33,
+            "insert_at_sec": 6.962,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unprompted mid-clause dead silence with cosine cross-faded edges; timeline shifted thereafter."
+        },
+        {
+          "flaw_id": "flaw_02",
+          "category": "pacing",
+          "sub_type": "rushed_delivery",
+          "start_sec": 14.706,
+          "end_sec": 17.7,
+          "target_phrase": "structured opposition exposes weak arguments",
+          "parameters_applied": {
+            "time_stretch_factor": 1.55,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Sudden drop in syllable duration and compressed pause intervals."
+        },
+        {
+          "flaw_id": "flaw_03",
+          "category": "pitch",
+          "sub_type": "monotone_flattening",
+          "start_sec": 22.341,
+          "end_sec": 26.982,
+          "target_phrase": "Rushed legislation is fragile legislation",
+          "parameters_applied": {
+            "f0_std_suppression": 0.8,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Zero pitch deviation; F0 contour approaches variance of zero."
+        }
+      ]
+    },
+    {
+      "sample_id": "speech_B_level3_botched",
+      "baseline_id": "speech_B_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_B_level3_botched.wav",
+      "transcript_path": "dataset/raw_baseline/speech_B.txt",
+      "duration_sec": 42.129,
+      "severity_level": 3,
+      "injected_flaws": [
+        {
+          "flaw_id": "flaw_01",
+          "category": "silence",
+          "sub_type": "severe_hesitation",
+          "start_sec": 5.641,
+          "end_sec": 8.006,
+          "target_phrase": "transparency forces leaders to justify every policy choice",
+          "parameters_applied": {
+            "silence_duration_sec": 2.365,
+            "insert_at_sec": 5.641,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unnatural hesitation pause exceeding 2.0 seconds with soft-edged splice."
+        },
+        {
+          "flaw_id": "flaw_02",
+          "category": "silence",
+          "sub_type": "severe_hesitation",
+          "start_sec": 15.541,
+          "end_sec": 18.023,
+          "target_phrase": "structured opposition exposes weak arguments",
+          "parameters_applied": {
+            "silence_duration_sec": 2.482,
+            "insert_at_sec": 15.541,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unnatural hesitation pause exceeding 2.0 seconds with soft-edged splice."
+        },
+        {
+          "flaw_id": "flaw_03",
+          "category": "energy",
+          "sub_type": "volume_spike",
+          "start_sec": 15.81,
+          "end_sec": 15.93,
+          "target_phrase": "structured opposition exposes weak arguments",
+          "parameters_applied": {
+            "gain_db": 12.0,
+            "clip_risk": true
+          },
+          "expected_acoustic_signature": "Erratic +12 dB burst on unstressed fragment; transient clip-risk energy spike."
+        },
+        {
+          "flaw_id": "flaw_04",
+          "category": "energy",
+          "sub_type": "volume_spike",
+          "start_sec": 17.947,
+          "end_sec": 18.067,
+          "target_phrase": "structured opposition exposes weak arguments",
+          "parameters_applied": {
+            "gain_db": 12.0,
+            "clip_risk": true
+          },
+          "expected_acoustic_signature": "Erratic +12 dB burst on unstressed fragment; transient clip-risk energy spike."
+        },
+        {
+          "flaw_id": "flaw_05",
+          "category": "energy",
+          "sub_type": "volume_spike",
+          "start_sec": 20.083,
+          "end_sec": 20.203,
+          "target_phrase": "structured opposition exposes weak arguments",
+          "parameters_applied": {
+            "gain_db": 12.0,
+            "clip_risk": true
+          },
+          "expected_acoustic_signature": "Erratic +12 dB burst on unstressed fragment; transient clip-risk energy spike."
+        },
+        {
+          "flaw_id": "flaw_06",
+          "category": "silence",
+          "sub_type": "severe_hesitation",
+          "start_sec": 27.005,
+          "end_sec": 29.363,
+          "target_phrase": "Rushed legislation is fragile legislation",
+          "parameters_applied": {
+            "silence_duration_sec": 2.358,
+            "insert_at_sec": 27.005,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unnatural hesitation pause exceeding 2.0 seconds with soft-edged splice."
+        },
+        {
+          "flaw_id": "flaw_07",
+          "category": "compound",
+          "sub_type": "hyperspeed_pitch_collapse",
+          "start_sec": 36.598,
+          "end_sec": 39.107,
+          "target_phrase": "Vote for deliberation. Vote for accountability",
+          "parameters_applied": {
+            "time_stretch_factor": 1.85,
+            "f0_std_suppression": 1.0,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Hyper-accelerated cadence (>1.8\u00d7) with complete pitch-range collapse to near-zero F0 variance."
+        }
+      ]
+    },
+    {
+      "sample_id": "speech_C_level0_baseline",
+      "baseline_id": "speech_C_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_C_level0_baseline.wav",
+      "transcript_path": "dataset/raw_baseline/speech_C.txt",
+      "duration_sec": 30.84,
+      "severity_level": 0,
+      "injected_flaws": []
+    },
+    {
+      "sample_id": "speech_C_level1_subtle_pitch_flatten",
+      "baseline_id": "speech_C_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_C_level1_subtle_pitch_flatten.wav",
+      "transcript_path": "dataset/raw_baseline/speech_C.txt",
+      "duration_sec": 30.822,
+      "severity_level": 1,
+      "injected_flaws": [
+        {
+          "flaw_id": "flaw_01",
+          "category": "pitch",
+          "sub_type": "subtle_flattening",
+          "start_sec": 10.093,
+          "end_sec": 13.457,
+          "target_phrase": "Memory rose like mist",
+          "parameters_applied": {
+            "f0_std_suppression": 0.35,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Mild reduction in local F0 variance over a single clause; still near-natural."
+        }
+      ]
+    },
+    {
+      "sample_id": "speech_C_level2_pacing_monotone",
+      "baseline_id": "speech_C_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_C_level2_pacing_monotone.wav",
+      "transcript_path": "dataset/raw_baseline/speech_C.txt",
+      "duration_sec": 31.785,
+      "severity_level": 2,
+      "injected_flaws": [
+        {
+          "flaw_id": "flaw_01",
+          "category": "silence",
+          "sub_type": "awkward_dead_air",
+          "start_sec": 5.607,
+          "end_sec": 7.799,
+          "target_phrase": "the river carried old secrets downstream",
+          "parameters_applied": {
+            "silence_duration_sec": 2.192,
+            "insert_at_sec": 5.607,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unprompted mid-clause dead silence with cosine cross-faded edges; timeline shifted thereafter."
+        },
+        {
+          "flaw_id": "flaw_02",
+          "category": "pacing",
+          "sub_type": "rushed_delivery",
+          "start_sec": 12.285,
+          "end_sec": 14.455,
+          "target_phrase": "Memory rose like mist",
+          "parameters_applied": {
+            "time_stretch_factor": 1.55,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Sudden drop in syllable duration and compressed pause intervals."
+        },
+        {
+          "flaw_id": "flaw_03",
+          "category": "pitch",
+          "sub_type": "monotone_flattening",
+          "start_sec": 17.82,
+          "end_sec": 21.184,
+          "target_phrase": "Grief and gratitude arrived together",
+          "parameters_applied": {
+            "f0_std_suppression": 0.8,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Zero pitch deviation; F0 contour approaches variance of zero."
+        }
+      ]
+    },
+    {
+      "sample_id": "speech_C_level3_botched",
+      "baseline_id": "speech_C_baseline",
+      "audio_path": "dataset/flawed_spectrum/speech_C_level3_botched.wav",
+      "transcript_path": "dataset/raw_baseline/speech_C.txt",
+      "duration_sec": 35.483,
+      "severity_level": 3,
+      "injected_flaws": [
+        {
+          "flaw_id": "flaw_01",
+          "category": "silence",
+          "sub_type": "severe_hesitation",
+          "start_sec": 4.925,
+          "end_sec": 7.204,
+          "target_phrase": "the river carried old secrets downstream",
+          "parameters_applied": {
+            "silence_duration_sec": 2.279,
+            "insert_at_sec": 4.925,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unnatural hesitation pause exceeding 2.0 seconds with soft-edged splice."
+        },
+        {
+          "flaw_id": "flaw_02",
+          "category": "silence",
+          "sub_type": "severe_hesitation",
+          "start_sec": 13.172,
+          "end_sec": 15.54,
+          "target_phrase": "Memory rose like mist",
+          "parameters_applied": {
+            "silence_duration_sec": 2.368,
+            "insert_at_sec": 13.172,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unnatural hesitation pause exceeding 2.0 seconds with soft-edged splice."
+        },
+        {
+          "flaw_id": "flaw_03",
+          "category": "energy",
+          "sub_type": "volume_spike",
+          "start_sec": 13.232,
+          "end_sec": 13.352,
+          "target_phrase": "Memory rose like mist",
+          "parameters_applied": {
+            "gain_db": 12.0,
+            "clip_risk": true
+          },
+          "expected_acoustic_signature": "Erratic +12 dB burst on unstressed fragment; transient clip-risk energy spike."
+        },
+        {
+          "flaw_id": "flaw_04",
+          "category": "energy",
+          "sub_type": "volume_spike",
+          "start_sec": 14.952,
+          "end_sec": 15.072,
+          "target_phrase": "Memory rose like mist",
+          "parameters_applied": {
+            "gain_db": 12.0,
+            "clip_risk": true
+          },
+          "expected_acoustic_signature": "Erratic +12 dB burst on unstressed fragment; transient clip-risk energy spike."
+        },
+        {
+          "flaw_id": "flaw_05",
+          "category": "energy",
+          "sub_type": "volume_spike",
+          "start_sec": 16.671,
+          "end_sec": 16.791,
+          "target_phrase": "Memory rose like mist",
+          "parameters_applied": {
+            "gain_db": 12.0,
+            "clip_risk": true
+          },
+          "expected_acoustic_signature": "Erratic +12 dB burst on unstressed fragment; transient clip-risk energy spike."
+        },
+        {
+          "flaw_id": "flaw_06",
+          "category": "silence",
+          "sub_type": "severe_hesitation",
+          "start_sec": 21.969,
+          "end_sec": 24.097,
+          "target_phrase": "Grief and gratitude arrived together",
+          "parameters_applied": {
+            "silence_duration_sec": 2.128,
+            "insert_at_sec": 21.969,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Unnatural hesitation pause exceeding 2.0 seconds with soft-edged splice."
+        },
+        {
+          "flaw_id": "flaw_07",
+          "category": "compound",
+          "sub_type": "hyperspeed_pitch_collapse",
+          "start_sec": 30.326,
+          "end_sec": 32.751,
+          "target_phrase": "low as thunder, bright as glass, unbroken",
+          "parameters_applied": {
+            "time_stretch_factor": 1.85,
+            "f0_std_suppression": 1.0,
+            "crossfade_ms": 9.0
+          },
+          "expected_acoustic_signature": "Hyper-accelerated cadence (>1.8\u00d7) with complete pitch-range collapse to near-zero F0 variance."
+        }
+      ]
+    }
+  ]
+}

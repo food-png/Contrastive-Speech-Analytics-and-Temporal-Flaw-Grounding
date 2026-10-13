@@ -1,0 +1,120 @@
+{
+  "dataset_version": "1.0.0",
+  "generated_at": "2026-10-13T13:46:48.372492+00:00",
+  "baselines": [
+    {
+      "baseline_id": "speech_A_baseline",
+      "sample_key": "A",
+      "style": "persuasive_oratory",
+      "source": "edge_tts:en-US-GuyNeural",
+      "voice": "en-US-GuyNeural",
+      "duration_sec": 38.592,
+      "sample_rate": 16000,
+      "channels": 1,
+      "bit_depth": 16,
+      "peak_dbfs": -1.0,
+      "transcript_path": "dataset/raw_baseline/speech_A.txt",
+      "raw_audio_path": "dataset/raw_baseline/speech_A.wav",
+      "processed_audio_path": "dataset/processed_baseline/speech_A_baseline.wav",
+      "phrase_windows": {
+        "clause_1": {
+          "start_sec": 5.937,
+          "end_sec": 10.39,
+          "text": "You cannot connect the dots looking forward"
+        },
+        "clause_2": {
+          "start_sec": 16.327,
+          "end_sec": 20.78,
+          "text": "to follow your heart and intuition"
+        },
+        "clause_3": {
+          "start_sec": 22.265,
+          "end_sec": 26.718,
+          "text": "they somehow already know what you truly want to become"
+        },
+        "clause_4": {
+          "start_sec": 29.686,
+          "end_sec": 34.139,
+          "text": "Stay hungry. Stay foolish"
+        }
+      },
+      "generated_at": "2026-10-13T13:46:45.164889+00:00"
+    },
+    {
+      "baseline_id": "speech_B_baseline",
+      "sample_key": "B",
+      "style": "parliamentary_debate",
+      "source": "edge_tts:en-GB-RyanNeural",
+      "voice": "en-GB-RyanNeural",
+      "duration_sec": 37.128,
+      "sample_rate": 16000,
+      "channels": 1,
+      "bit_depth": 16,
+      "peak_dbfs": -1.0,
+      "transcript_path": "dataset/raw_baseline/speech_B.txt",
+      "raw_audio_path": "dataset/raw_baseline/speech_B.wav",
+      "processed_audio_path": "dataset/processed_baseline/speech_B_baseline.wav",
+      "phrase_windows": {
+        "clause_1": {
+          "start_sec": 4.641,
+          "end_sec": 9.282,
+          "text": "transparency forces leaders to justify every policy choice"
+        },
+        "clause_2": {
+          "start_sec": 12.376,
+          "end_sec": 17.017,
+          "text": "structured opposition exposes weak arguments"
+        },
+        "clause_3": {
+          "start_sec": 21.658,
+          "end_sec": 26.299,
+          "text": "Rushed legislation is fragile legislation"
+        },
+        "clause_4": {
+          "start_sec": 29.393,
+          "end_sec": 34.034,
+          "text": "Vote for deliberation. Vote for accountability"
+        }
+      },
+      "generated_at": "2026-10-13T13:46:46.675579+00:00"
+    },
+    {
+      "baseline_id": "speech_C_baseline",
+      "sample_key": "C",
+      "style": "interpretive_expressive",
+      "source": "edge_tts:en-US-JennyNeural",
+      "voice": "en-US-JennyNeural",
+      "duration_sec": 30.84,
+      "sample_rate": 16000,
+      "channels": 1,
+      "bit_depth": 16,
+      "peak_dbfs": -1.0,
+      "transcript_path": "dataset/raw_baseline/speech_C.txt",
+      "raw_audio_path": "dataset/raw_baseline/speech_C.wav",
+      "processed_audio_path": "dataset/processed_baseline/speech_C_baseline.wav",
+      "phrase_windows": {
+        "clause_1": {
+          "start_sec": 3.925,
+          "end_sec": 7.289,
+          "text": "the river carried old secrets downstream"
+        },
+        "clause_2": {
+          "start_sec": 10.093,
+          "end_sec": 13.457,
+          "text": "Memory rose like mist"
+        },
+        "clause_3": {
+          "start_sec": 16.822,
+          "end_sec": 20.186,
+          "text": "Grief and gratitude arrived together"
+        },
+        "clause_4": {
+          "start_sec": 23.551,
+          "end_sec": 28.036,
+          "text": "low as thunder, bright as glass, unbroken"
+        }
+      },
+      "generated_at": "2026-10-13T13:46:48.370109+00:00"
+    }
+  ]
+}

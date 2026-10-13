@@ -1,0 +1,238 @@
+{
+  "candidate_id": "speech_B_level3_botched",
+  "baseline_id": "speech_B_baseline",
+  "flaws": [
+    {
+      "flaw_id": "det_01",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 4.924,
+      "end_sec": 5.348,
+      "duration_sec": 0.424,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 31.539,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "First,"
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 5.361,
+      "end_sec": 8.182,
+      "duration_sec": 2.821,
+      "severity_score": 0.5602499971987499,
+      "mathematical_evidence": {
+        "cand_pause_sec": 2.62,
+        "base_pause_sec": 0.3,
+        "delta_pause_sec": 2.321,
+        "mult_threshold": 3.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 8.028,
+      "end_sec": 8.932,
+      "duration_sec": 0.904,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 58.275,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "transparency"
+    },
+    {
+      "flaw_id": "det_04",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 9.404,
+      "end_sec": 9.7,
+      "duration_sec": 0.296,
+      "severity_score": 0.7767027815928401,
+      "mathematical_evidence": {
+        "peak_delta_db": 21.32,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "leaders"
+    },
+    {
+      "flaw_id": "det_05",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 13.052,
+      "end_sec": 15.364,
+      "duration_sec": 2.312,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "Second, structured opposition exposes"
+    },
+    {
+      "flaw_id": "det_06",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 15.343,
+      "end_sec": 18.104,
+      "duration_sec": 2.761,
+      "severity_score": 0.5302999973485004,
+      "mathematical_evidence": {
+        "cand_pause_sec": 2.561,
+        "base_pause_sec": 0.0,
+        "delta_pause_sec": 2.561,
+        "mult_threshold": 3.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_07",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 17.916,
+      "end_sec": 18.788,
+      "duration_sec": 0.872,
+      "severity_score": 0.26931459204626046,
+      "mathematical_evidence": {
+        "peak_delta_db": 15.232,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "arguments before"
+    },
+    {
+      "flaw_id": "det_08",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 26.332,
+      "end_sec": 26.916,
+      "duration_sec": 0.584,
+      "severity_score": 0.7802606913681485,
+      "mathematical_evidence": {
+        "peak_delta_db": 21.363,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "opponents claim"
+    },
+    {
+      "flaw_id": "det_09",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 26.806,
+      "end_sec": 29.446,
+      "duration_sec": 2.64,
+      "severity_score": 0.4702499976487501,
+      "mathematical_evidence": {
+        "cand_pause_sec": 2.441,
+        "base_pause_sec": 0.0,
+        "delta_pause_sec": 2.441,
+        "mult_threshold": 3.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_10",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 29.628,
+      "end_sec": 31.108,
+      "duration_sec": 1.48,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "matters more than scrutiny."
+    },
+    {
+      "flaw_id": "det_11",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 31.836,
+      "end_sec": 33.54,
+      "duration_sec": 1.704,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "We reject that false tradeoff."
+    },
+    {
+      "flaw_id": "det_12",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 34.492,
+      "end_sec": 34.884,
+      "duration_sec": 0.392,
+      "severity_score": 0.9177364672010089,
+      "mathematical_evidence": {
+        "peak_delta_db": 23.013,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "Rushed"
+    },
+    {
+      "flaw_id": "det_13",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 35.324,
+      "end_sec": 36.996,
+      "duration_sec": 1.672,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 55.232,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "legislation is fragile legislation."
+    },
+    {
+      "flaw_id": "det_14",
+      "category": "pacing",
+      "sub_type": "rushed_delivery",
+      "start_sec": 36.764,
+      "end_sec": 39.172,
+      "duration_sec": 2.408,
+      "severity_score": 0.33333332767777807,
+      "mathematical_evidence": {
+        "pacing_ratio_median": 1.6,
+        "threshold": 1.4,
+        "mean_wpm_cand": 139.43,
+        "mean_wpm_base": 87.78
+      },
+      "target_phrase": "Vote for deliberation. Vote for accountability."
+    },
+    {
+      "flaw_id": "det_15",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 37.596,
+      "end_sec": 38.756,
+      "duration_sec": 1.16,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 52.232,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "deliberation. Vote for"
+    }
+  ],
+  "residual_summary": {
+    "n_frames": 1317,
+    "mean_abs_energy_delta": 19.4731,
+    "mean_pacing_ratio": 0.8981,
+    "monotone_frame_fraction": 0.0099,
+    "rush_frame_fraction": 0.0539,
+    "drag_frame_fraction": 0.161,
+    "n_detected_flaws": 15,
+    "categories": [
+      "energy",
+      "pacing",
+      "pause"
+    ]
+  }
+}

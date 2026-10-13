@@ -1,0 +1,125 @@
+{
+  "candidate_id": "speech_B_level2_pacing_monotone",
+  "baseline_id": "speech_B_baseline",
+  "flaws": [
+    {
+      "flaw_id": "det_01",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 5.66,
+      "end_sec": 6.116,
+      "duration_sec": 0.456,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 59.326,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "transparency"
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 6.843,
+      "end_sec": 9.424,
+      "duration_sec": 2.581,
+      "severity_score": 0.4404999977974997,
+      "mathematical_evidence": {
+        "cand_pause_sec": 2.381,
+        "base_pause_sec": 0.0,
+        "delta_pause_sec": 2.381,
+        "mult_threshold": 3.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 9.82,
+      "end_sec": 11.812,
+      "duration_sec": 1.992,
+      "severity_score": 0.6582388926684363,
+      "mathematical_evidence": {
+        "peak_delta_db": 19.899,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "justify every policy choice in public."
+    },
+    {
+      "flaw_id": "det_04",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 12.892,
+      "end_sec": 14.372,
+      "duration_sec": 1.48,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 28.562,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "Second, structured opposition"
+    },
+    {
+      "flaw_id": "det_05",
+      "category": "pacing",
+      "sub_type": "rushed_delivery",
+      "start_sec": 15.804,
+      "end_sec": 17.604,
+      "duration_sec": 1.8,
+      "severity_score": 0.285714280884354,
+      "mathematical_evidence": {
+        "pacing_ratio_median": 1.5714,
+        "threshold": 1.4,
+        "mean_wpm_cand": 210.98,
+        "mean_wpm_base": 134.74
+      },
+      "target_phrase": "become law. Third, citizens"
+    },
+    {
+      "flaw_id": "det_06",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 16.764,
+      "end_sec": 17.508,
+      "duration_sec": 0.744,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 55.814,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "law. Third, citizens"
+    },
+    {
+      "flaw_id": "det_07",
+      "category": "pitch",
+      "sub_type": "monotone_flattening",
+      "start_sec": 23.132,
+      "end_sec": 24.036,
+      "duration_sec": 0.904,
+      "severity_score": 0.7808564605966933,
+      "mathematical_evidence": {
+        "sigma_ratio_median": 0.2315,
+        "monotone_ratio_threshold": 0.35,
+        "mean_sigma_cand": 0.1866,
+        "mean_sigma_base": 0.7839
+      },
+      "target_phrase": "matters more than scrutiny."
+    }
+  ],
+  "residual_summary": {
+    "n_frames": 1180,
+    "mean_abs_energy_delta": 5.9881,
+    "mean_pacing_ratio": 0.9914,
+    "monotone_frame_fraction": 0.0263,
+    "rush_frame_fraction": 0.0475,
+    "drag_frame_fraction": 0.0746,
+    "n_detected_flaws": 7,
+    "categories": [
+      "energy",
+      "pacing",
+      "pause",
+      "pitch"
+    ]
+  }
+}

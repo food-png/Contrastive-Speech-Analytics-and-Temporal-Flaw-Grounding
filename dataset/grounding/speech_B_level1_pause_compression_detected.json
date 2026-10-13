@@ -1,0 +1,60 @@
+{
+  "candidate_id": "speech_B_level1_pause_compression",
+  "baseline_id": "speech_B_baseline",
+  "flaws": [
+    {
+      "flaw_id": "det_01",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 12.092,
+      "end_sec": 13.348,
+      "duration_sec": 1.256,
+      "severity_score": 0.7632003499847642,
+      "mathematical_evidence": {
+        "peak_delta_db": 21.158,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "exposes weak arguments before"
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 24.604,
+      "end_sec": 25.124,
+      "duration_sec": 0.52,
+      "severity_score": 0.8221496115408026,
+      "mathematical_evidence": {
+        "peak_delta_db": 21.866,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "that false"
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 27.804,
+      "end_sec": 28.26,
+      "duration_sec": 0.456,
+      "severity_score": 0.9684841140384219,
+      "mathematical_evidence": {
+        "peak_delta_db": 23.622,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "is fragile"
+    }
+  ],
+  "residual_summary": {
+    "n_frames": 1145,
+    "mean_abs_energy_delta": 3.0698,
+    "mean_pacing_ratio": 1.0143,
+    "monotone_frame_fraction": 0.0,
+    "rush_frame_fraction": 0.0026,
+    "drag_frame_fraction": 0.0026,
+    "n_detected_flaws": 3,
+    "categories": [
+      "energy"
+    ]
+  }
+}

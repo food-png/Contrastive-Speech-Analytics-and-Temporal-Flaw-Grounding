@@ -1,0 +1,192 @@
+{
+  "candidate_id": "speech_C_level3_botched",
+  "baseline_id": "speech_C_baseline",
+  "flaws": [
+    {
+      "flaw_id": "det_01",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 3.762,
+      "end_sec": 7.305,
+      "duration_sec": 3.543,
+      "severity_score": 0.9210999953945,
+      "mathematical_evidence": {
+        "cand_pause_sec": 3.342,
+        "base_pause_sec": 1.061,
+        "delta_pause_sec": 2.282,
+        "mult_threshold": 3.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 4.796,
+      "end_sec": 5.092,
+      "duration_sec": 0.296,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 43.587,
+        "threshold_db": 12.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 11.996,
+      "end_sec": 13.188,
+      "duration_sec": 1.192,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 47.556,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "mist: a childhood"
+    },
+    {
+      "flaw_id": "det_04",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 12.928,
+      "end_sec": 15.51,
+      "duration_sec": 2.582,
+      "severity_score": 0.44074999779625046,
+      "mathematical_evidence": {
+        "cand_pause_sec": 2.382,
+        "base_pause_sec": 0.24,
+        "delta_pause_sec": 2.141,
+        "mult_threshold": 3.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_05",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 15.548,
+      "end_sec": 15.876,
+      "duration_sec": 0.328,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 49.208,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "kitchen,"
+    },
+    {
+      "flaw_id": "det_06",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 16.412,
+      "end_sec": 18.212,
+      "duration_sec": 1.8,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "bread, a lullaby half-forgotten."
+    },
+    {
+      "flaw_id": "det_07",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 19.004,
+      "end_sec": 20.9,
+      "duration_sec": 1.896,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 54.164,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "Grief and gratitude arrived together,"
+    },
+    {
+      "flaw_id": "det_08",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 21.308,
+      "end_sec": 21.796,
+      "duration_sec": 0.488,
+      "severity_score": 0.8709973870025518,
+      "mathematical_evidence": {
+        "peak_delta_db": 22.452,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "asking"
+    },
+    {
+      "flaw_id": "det_09",
+      "category": "pacing",
+      "sub_type": "dragging_cadence",
+      "start_sec": 22.108,
+      "end_sec": 24.548,
+      "duration_sec": 2.44,
+      "severity_score": 0.6333333205555557,
+      "mathematical_evidence": {
+        "pacing_ratio_median": 0.3333,
+        "threshold": 0.65
+      },
+      "target_phrase": "permission."
+    },
+    {
+      "flaw_id": "det_10",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 23.996,
+      "end_sec": 24.612,
+      "duration_sec": 0.616,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 54.855,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "permission."
+    },
+    {
+      "flaw_id": "det_11",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 30.236,
+      "end_sec": 30.724,
+      "duration_sec": 0.488,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 28.549,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "the first light"
+    },
+    {
+      "flaw_id": "det_12",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 31.1,
+      "end_sec": 32.644,
+      "duration_sec": 1.544,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 37.649,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "her voice found its full range again low as thunder,"
+    }
+  ],
+  "residual_summary": {
+    "n_frames": 1109,
+    "mean_abs_energy_delta": 12.5606,
+    "mean_pacing_ratio": 0.8845,
+    "monotone_frame_fraction": 0.0081,
+    "rush_frame_fraction": 0.0766,
+    "drag_frame_fraction": 0.1821,
+    "n_detected_flaws": 12,
+    "categories": [
+      "energy",
+      "pacing",
+      "pause"
+    ]
+  }
+}

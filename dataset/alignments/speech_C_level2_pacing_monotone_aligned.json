@@ -1,0 +1,573 @@
+{
+  "sample_id": "speech_C_level2_pacing_monotone",
+  "audio_path": "dataset/flawed_spectrum/speech_C_level2_pacing_monotone.wav",
+  "words": [
+    {
+      "word": "The",
+      "start_sec": 0.2002,
+      "end_sec": 0.2802,
+      "confidence": 0.9970100124677023
+    },
+    {
+      "word": "night",
+      "start_sec": 0.3202,
+      "end_sec": 0.5604,
+      "confidence": 0.9201602786779404
+    },
+    {
+      "word": "was",
+      "start_sec": 0.6005,
+      "end_sec": 0.7206,
+      "confidence": 0.9978803197542826
+    },
+    {
+      "word": "wide",
+      "start_sec": 0.8006,
+      "end_sec": 1.0008,
+      "confidence": 0.9965006709098816
+    },
+    {
+      "word": "and",
+      "start_sec": 1.0208,
+      "end_sec": 1.1209,
+      "confidence": 0.9942758679389954
+    },
+    {
+      "word": "quiet,",
+      "start_sec": 1.1609,
+      "end_sec": 1.5612,
+      "confidence": 0.9778087337811788
+    },
+    {
+      "word": "and",
+      "start_sec": 1.8214,
+      "end_sec": 1.9015,
+      "confidence": 0.9849252700805664
+    },
+    {
+      "word": "the",
+      "start_sec": 1.9215,
+      "end_sec": 2.0015,
+      "confidence": 0.9888322502374649
+    },
+    {
+      "word": "river",
+      "start_sec": 2.0416,
+      "end_sec": 2.2617,
+      "confidence": 0.9995027303695678
+    },
+    {
+      "word": "carried",
+      "start_sec": 2.3218,
+      "end_sec": 2.622,
+      "confidence": 0.9802673969949994
+    },
+    {
+      "word": "old",
+      "start_sec": 2.7021,
+      "end_sec": 2.8422,
+      "confidence": 0.95390185713768
+    },
+    {
+      "word": "secrets",
+      "start_sec": 2.9022,
+      "end_sec": 3.2825,
+      "confidence": 0.9885338693857193
+    },
+    {
+      "word": "downstream.",
+      "start_sec": 3.3226,
+      "end_sec": 3.863,
+      "confidence": 0.9631962830370123
+    },
+    {
+      "word": "She",
+      "start_sec": 4.9438,
+      "end_sec": 5.0239,
+      "confidence": 0.9923082192738851
+    },
+    {
+      "word": "stood",
+      "start_sec": 5.1039,
+      "end_sec": 5.3041,
+      "confidence": 0.9209487040837606
+    },
+    {
+      "word": "at",
+      "start_sec": 5.3441,
+      "end_sec": 5.4042,
+      "confidence": 0.9802018105983734
+    },
+    {
+      "word": "the",
+      "start_sec": 5.4442,
+      "end_sec": 5.5042,
+      "confidence": 0.9455475807189941
+    },
+    {
+      "word": "edge",
+      "start_sec": 7.806,
+      "end_sec": 7.9461,
+      "confidence": 0.42231988650746644
+    },
+    {
+      "word": "and",
+      "start_sec": 7.9461,
+      "end_sec": 8.0662,
+      "confidence": 0.4956543802594145
+    },
+    {
+      "word": "listened",
+      "start_sec": 8.0862,
+      "end_sec": 8.3865,
+      "confidence": 0.876495897769928
+    },
+    {
+      "word": "to",
+      "start_sec": 8.4065,
+      "end_sec": 8.4665,
+      "confidence": 0.9643864830334982
+    },
+    {
+      "word": "the",
+      "start_sec": 8.5066,
+      "end_sec": 8.5866,
+      "confidence": 0.9885949492454529
+    },
+    {
+      "word": "wind",
+      "start_sec": 8.6467,
+      "end_sec": 8.8468,
+      "confidence": 0.9965852051973343
+    },
+    {
+      "word": "braid",
+      "start_sec": 8.9069,
+      "end_sec": 9.1471,
+      "confidence": 0.6568824201822281
+    },
+    {
+      "word": "through",
+      "start_sec": 9.1871,
+      "end_sec": 9.3472,
+      "confidence": 0.9566248059272766
+    },
+    {
+      "word": "the",
+      "start_sec": 9.3472,
+      "end_sec": 9.4273,
+      "confidence": 0.8826881945133209
+    },
+    {
+      "word": "reeds.",
+      "start_sec": 9.4873,
+      "end_sec": 9.8676,
+      "confidence": 0.9813014268875122
+    },
+    {
+      "word": "Memory",
+      "start_sec": 10.9484,
+      "end_sec": 11.2287,
+      "confidence": 0.9994990527629852
+    },
+    {
+      "word": "rose",
+      "start_sec": 11.3287,
+      "end_sec": 11.5289,
+      "confidence": 0.9605183005332947
+    },
+    {
+      "word": "like",
+      "start_sec": 11.5689,
+      "end_sec": 11.7691,
+      "confidence": 0.9190563797950745
+    },
+    {
+      "word": "mist:",
+      "start_sec": 11.8091,
+      "end_sec": 12.1894,
+      "confidence": 0.9844193756580353
+    },
+    {
+      "word": "a",
+      "start_sec": 12.3295,
+      "end_sec": 12.3495,
+      "confidence": 0.5446197986602783
+    },
+    {
+      "word": "childhood",
+      "start_sec": 12.4296,
+      "end_sec": 12.7298,
+      "confidence": 0.13950768335618907
+    },
+    {
+      "word": "kitchen,",
+      "start_sec": 12.7498,
+      "end_sec": 12.99,
+      "confidence": 0.25900358832690734
+    },
+    {
+      "word": "warm",
+      "start_sec": 13.0901,
+      "end_sec": 13.2702,
+      "confidence": 0.2227438436821103
+    },
+    {
+      "word": "bread,",
+      "start_sec": 13.2902,
+      "end_sec": 13.4904,
+      "confidence": 0.6165052056312561
+    },
+    {
+      "word": "a",
+      "start_sec": 13.5905,
+      "end_sec": 13.6105,
+      "confidence": 0.8287057280540466
+    },
+    {
+      "word": "lullaby",
+      "start_sec": 13.6705,
+      "end_sec": 13.9307,
+      "confidence": 0.21142529353632458
+    },
+    {
+      "word": "half-forgotten.",
+      "start_sec": 13.9307,
+      "end_sec": 14.3511,
+      "confidence": 0.1936030594218979
+    },
+    {
+      "word": "Grief",
+      "start_sec": 15.3518,
+      "end_sec": 15.572,
+      "confidence": 0.8578932881355286
+    },
+    {
+      "word": "and",
+      "start_sec": 15.632,
+      "end_sec": 15.7321,
+      "confidence": 0.5550062358379364
+    },
+    {
+      "word": "gratitude",
+      "start_sec": 15.7521,
+      "end_sec": 16.2725,
+      "confidence": 0.9911263465881348
+    },
+    {
+      "word": "arrived",
+      "start_sec": 16.2926,
+      "end_sec": 16.6128,
+      "confidence": 0.9729308571134295
+    },
+    {
+      "word": "together,",
+      "start_sec": 16.6528,
+      "end_sec": 17.0331,
+      "confidence": 0.9990091025829315
+    },
+    {
+      "word": "neither",
+      "start_sec": 17.3734,
+      "end_sec": 17.6136,
+      "confidence": 0.9462146759033203
+    },
+    {
+      "word": "asking",
+      "start_sec": 17.7337,
+      "end_sec": 18.0739,
+      "confidence": 0.9726658378328595
+    },
+    {
+      "word": "permission.",
+      "start_sec": 18.0939,
+      "end_sec": 18.5743,
+      "confidence": 0.9658229513601824
+    },
+    {
+      "word": "She",
+      "start_sec": 19.6752,
+      "end_sec": 19.7552,
+      "confidence": 0.9090556353330612
+    },
+    {
+      "word": "spoke",
+      "start_sec": 19.8553,
+      "end_sec": 20.1355,
+      "confidence": 0.9487553934256235
+    },
+    {
+      "word": "softly",
+      "start_sec": 20.1756,
+      "end_sec": 20.5158,
+      "confidence": 0.9967759549617767
+    },
+    {
+      "word": "to",
+      "start_sec": 20.5759,
+      "end_sec": 20.6359,
+      "confidence": 0.9882231950759888
+    },
+    {
+      "word": "the",
+      "start_sec": 20.6759,
+      "end_sec": 20.756,
+      "confidence": 0.94455286860466
+    },
+    {
+      "word": "dark,",
+      "start_sec": 20.816,
+      "end_sec": 21.1163,
+      "confidence": 0.9959983676671982
+    },
+    {
+      "word": "naming",
+      "start_sec": 21.3965,
+      "end_sec": 21.7167,
+      "confidence": 0.9566500527518136
+    },
+    {
+      "word": "every",
+      "start_sec": 21.7968,
+      "end_sec": 21.9769,
+      "confidence": 0.9932714819908142
+    },
+    {
+      "word": "fear",
+      "start_sec": 22.077,
+      "end_sec": 22.2772,
+      "confidence": 0.9329981654882431
+    },
+    {
+      "word": "she",
+      "start_sec": 22.3772,
+      "end_sec": 22.4773,
+      "confidence": 0.9372896403074265
+    },
+    {
+      "word": "had",
+      "start_sec": 22.5374,
+      "end_sec": 22.6575,
+      "confidence": 0.9975497126579285
+    },
+    {
+      "word": "outgrown.",
+      "start_sec": 22.6975,
+      "end_sec": 23.1979,
+      "confidence": 0.9867515414953232
+    },
+    {
+      "word": "And",
+      "start_sec": 24.2387,
+      "end_sec": 24.3388,
+      "confidence": 0.8930481374263763
+    },
+    {
+      "word": "when",
+      "start_sec": 24.3588,
+      "end_sec": 24.4789,
+      "confidence": 0.9957719445228577
+    },
+    {
+      "word": "the",
+      "start_sec": 24.4989,
+      "end_sec": 24.5789,
+      "confidence": 0.9978069464365641
+    },
+    {
+      "word": "first",
+      "start_sec": 24.639,
+      "end_sec": 24.8992,
+      "confidence": 0.9984520574410757
+    },
+    {
+      "word": "light",
+      "start_sec": 24.9793,
+      "end_sec": 25.1994,
+      "confidence": 0.9893003006776174
+    },
+    {
+      "word": "touched",
+      "start_sec": 25.2395,
+      "end_sec": 25.5397,
+      "confidence": 0.9907796515358819
+    },
+    {
+      "word": "the",
+      "start_sec": 25.5797,
+      "end_sec": 25.6598,
+      "confidence": 0.9336142241954803
+    },
+    {
+      "word": "water,",
+      "start_sec": 25.6998,
+      "end_sec": 25.98,
+      "confidence": 0.9996647596359253
+    },
+    {
+      "word": "her",
+      "start_sec": 26.2602,
+      "end_sec": 26.3803,
+      "confidence": 0.9301757216453552
+    },
+    {
+      "word": "voice",
+      "start_sec": 26.4204,
+      "end_sec": 26.7206,
+      "confidence": 0.9206010003884634
+    },
+    {
+      "word": "found",
+      "start_sec": 26.7606,
+      "end_sec": 26.9608,
+      "confidence": 0.9997114539146423
+    },
+    {
+      "word": "its",
+      "start_sec": 27.0008,
+      "end_sec": 27.1209,
+      "confidence": 0.9980178078015646
+    },
+    {
+      "word": "full",
+      "start_sec": 27.181,
+      "end_sec": 27.3611,
+      "confidence": 0.9200324296951294
+    },
+    {
+      "word": "range",
+      "start_sec": 27.4412,
+      "end_sec": 27.6813,
+      "confidence": 0.9990719556808472
+    },
+    {
+      "word": "again",
+      "start_sec": 27.7014,
+      "end_sec": 28.0616,
+      "confidence": 0.9428236058780125
+    },
+    {
+      "word": "low",
+      "start_sec": 28.3418,
+      "end_sec": 28.4619,
+      "confidence": 0.9907767573992411
+    },
+    {
+      "word": "as",
+      "start_sec": 28.522,
+      "end_sec": 28.6221,
+      "confidence": 0.9774968922138214
+    },
+    {
+      "word": "thunder,",
+      "start_sec": 28.6821,
+      "end_sec": 29.0224,
+      "confidence": 0.9931886451584953
+    },
+    {
+      "word": "bright",
+      "start_sec": 29.3026,
+      "end_sec": 29.5428,
+      "confidence": 0.9920222333499363
+    },
+    {
+      "word": "as",
+      "start_sec": 29.5828,
+      "end_sec": 29.6629,
+      "confidence": 0.9845227301120758
+    },
+    {
+      "word": "glass,",
+      "start_sec": 29.7229,
+      "end_sec": 30.1432,
+      "confidence": 0.9766504287719726
+    },
+    {
+      "word": "unbroken.",
+      "start_sec": 30.3234,
+      "end_sec": 30.8638,
+      "confidence": 0.96371910572052
+    }
+  ],
+  "pauses": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 0.2002,
+      "duration_sec": 0.2002
+    },
+    {
+      "start_sec": 1.5612,
+      "end_sec": 1.8214,
+      "duration_sec": 0.2602
+    },
+    {
+      "start_sec": 3.863,
+      "end_sec": 4.9438,
+      "duration_sec": 1.0808
+    },
+    {
+      "start_sec": 5.5042,
+      "end_sec": 7.806,
+      "duration_sec": 2.3018
+    },
+    {
+      "start_sec": 9.8676,
+      "end_sec": 10.9484,
+      "duration_sec": 1.0808
+    },
+    {
+      "start_sec": 14.3511,
+      "end_sec": 15.3518,
+      "duration_sec": 1.0007
+    },
+    {
+      "start_sec": 17.0331,
+      "end_sec": 17.3734,
+      "duration_sec": 0.3403
+    },
+    {
+      "start_sec": 18.5743,
+      "end_sec": 19.6752,
+      "duration_sec": 1.1009
+    },
+    {
+      "start_sec": 21.1163,
+      "end_sec": 21.3965,
+      "duration_sec": 0.2802
+    },
+    {
+      "start_sec": 23.1979,
+      "end_sec": 24.2387,
+      "duration_sec": 1.0408
+    },
+    {
+      "start_sec": 25.98,
+      "end_sec": 26.2602,
+      "duration_sec": 0.2802
+    },
+    {
+      "start_sec": 28.0616,
+      "end_sec": 28.3418,
+      "duration_sec": 0.2802
+    },
+    {
+      "start_sec": 29.0224,
+      "end_sec": 29.3026,
+      "duration_sec": 0.2802
+    },
+    {
+      "start_sec": 30.1432,
+      "end_sec": 30.3234,
+      "duration_sec": 0.1802
+    },
+    {
+      "start_sec": 30.8638,
+      "end_sec": 31.7845,
+      "duration_sec": 0.9207
+    }
+  ],
+  "transcript_path": "dataset/raw_baseline/speech_C.txt",
+  "duration_sec": 31.7845,
+  "backend": "mms (mean_conf=0.888)",
+  "device": "cpu"
+}

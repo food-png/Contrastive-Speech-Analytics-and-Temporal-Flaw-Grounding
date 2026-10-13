@@ -1,0 +1,196 @@
+{
+  "candidate_id": "speech_A_level3_botched",
+  "baseline_id": "speech_A_baseline",
+  "flaws": [
+    {
+      "flaw_id": "det_01",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 5.863,
+      "end_sec": 9.625,
+      "duration_sec": 3.762,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "cand_pause_sec": 3.562,
+        "base_pause_sec": 1.04,
+        "delta_pause_sec": 2.522,
+        "mult_threshold": 3.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 18.79,
+      "end_sec": 22.231,
+      "duration_sec": 3.441,
+      "severity_score": 0.8707999956459992,
+      "mathematical_evidence": {
+        "cand_pause_sec": 3.242,
+        "base_pause_sec": 1.06,
+        "delta_pause_sec": 2.181,
+        "mult_threshold": 3.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 22.044,
+      "end_sec": 22.82,
+      "duration_sec": 0.776,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 30.839,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "You have to trust"
+    },
+    {
+      "flaw_id": "det_04",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 24.124,
+      "end_sec": 26.18,
+      "duration_sec": 2.056,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "destiny, life, karma, whatever."
+    },
+    {
+      "flaw_id": "det_05",
+      "category": "pacing",
+      "sub_type": "dragging_cadence",
+      "start_sec": 26.524,
+      "end_sec": 29.124,
+      "duration_sec": 2.6,
+      "severity_score": 0.7285714138979594,
+      "mathematical_evidence": {
+        "pacing_ratio_median": 0.2857,
+        "threshold": 0.65
+      },
+      "target_phrase": "Because"
+    },
+    {
+      "flaw_id": "det_06",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 27.196,
+      "end_sec": 27.652,
+      "duration_sec": 0.456,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "Because"
+    },
+    {
+      "flaw_id": "det_07",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 30.172,
+      "end_sec": 30.788,
+      "duration_sec": 0.616,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 28.539,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "believing that the dots"
+    },
+    {
+      "flaw_id": "det_08",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 31.612,
+      "end_sec": 31.908,
+      "duration_sec": 0.296,
+      "severity_score": 0.388765094718133,
+      "mathematical_evidence": {
+        "peak_delta_db": 16.665,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "the"
+    },
+    {
+      "flaw_id": "det_09",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 32.412,
+      "end_sec": 33.284,
+      "duration_sec": 0.872,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 26.159,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "you the confidence"
+    },
+    {
+      "flaw_id": "det_10",
+      "category": "pacing",
+      "sub_type": "rushed_delivery",
+      "start_sec": 37.148,
+      "end_sec": 38.948,
+      "duration_sec": 1.8,
+      "severity_score": 0.5833333235329864,
+      "mathematical_evidence": {
+        "pacing_ratio_median": 1.75,
+        "threshold": 1.4,
+        "mean_wpm_cand": 234.9,
+        "mean_wpm_base": 130.86
+      },
+      "target_phrase": "want to become. Everything else is secondary."
+    },
+    {
+      "flaw_id": "det_11",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 37.564,
+      "end_sec": 37.892,
+      "duration_sec": 0.328,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 39.419,
+        "threshold_db": 12.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_12",
+      "category": "pacing",
+      "sub_type": "rushed_delivery",
+      "start_sec": 39.58,
+      "end_sec": 40.26,
+      "duration_sec": 0.68,
+      "severity_score": 0.44444443685185175,
+      "mathematical_evidence": {
+        "pacing_ratio_median": 1.6667,
+        "threshold": 1.4,
+        "mean_wpm_cand": 114.67,
+        "mean_wpm_base": 66.69
+      },
+      "target_phrase": "Stay"
+    }
+  ],
+  "residual_summary": {
+    "n_frames": 1359,
+    "mean_abs_energy_delta": 6.6813,
+    "mean_pacing_ratio": 0.8991,
+    "monotone_frame_fraction": 0.0,
+    "rush_frame_fraction": 0.0545,
+    "drag_frame_fraction": 0.1435,
+    "n_detected_flaws": 12,
+    "categories": [
+      "energy",
+      "pacing",
+      "pause"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "candidate_id": "speech_A_level0_baseline",
+  "baseline_id": "speech_A_baseline",
+  "flaws": [],
+  "residual_summary": {
+    "n_frames": 1207,
+    "mean_abs_energy_delta": 0.1571,
+    "mean_pacing_ratio": 0.9991,
+    "monotone_frame_fraction": 0.0,
+    "rush_frame_fraction": 0.0,
+    "drag_frame_fraction": 0.0,
+    "n_detected_flaws": 0,
+    "categories": []
+  }
+}

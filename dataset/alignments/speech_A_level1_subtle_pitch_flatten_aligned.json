@@ -1,0 +1,690 @@
+{
+  "sample_id": "speech_A_level1_subtle_pitch_flatten",
+  "audio_path": "dataset/flawed_spectrum/speech_A_level1_subtle_pitch_flatten.wav",
+  "words": [
+    {
+      "word": "Today",
+      "start_sec": 0.2201,
+      "end_sec": 0.5202,
+      "confidence": 0.999685800075531
+    },
+    {
+      "word": "I",
+      "start_sec": 0.6802,
+      "end_sec": 0.7003,
+      "confidence": 0.9994383454322815
+    },
+    {
+      "word": "want",
+      "start_sec": 0.7403,
+      "end_sec": 0.8803,
+      "confidence": 0.9342534303665161
+    },
+    {
+      "word": "to",
+      "start_sec": 0.9203,
+      "end_sec": 0.9603,
+      "confidence": 0.9904245734214783
+    },
+    {
+      "word": "tell",
+      "start_sec": 1.0204,
+      "end_sec": 1.2004,
+      "confidence": 0.9920200705528259
+    },
+    {
+      "word": "you",
+      "start_sec": 1.2204,
+      "end_sec": 1.3205,
+      "confidence": 0.8906428515911102
+    },
+    {
+      "word": "three",
+      "start_sec": 1.3805,
+      "end_sec": 1.6006,
+      "confidence": 0.9660466143063137
+    },
+    {
+      "word": "stories",
+      "start_sec": 1.6406,
+      "end_sec": 2.0407,
+      "confidence": 0.9985652789473534
+    },
+    {
+      "word": "from",
+      "start_sec": 2.0808,
+      "end_sec": 2.2208,
+      "confidence": 0.9993690103292465
+    },
+    {
+      "word": "my",
+      "start_sec": 2.2608,
+      "end_sec": 2.3609,
+      "confidence": 0.9992654621601105
+    },
+    {
+      "word": "life.",
+      "start_sec": 2.4209,
+      "end_sec": 2.721,
+      "confidence": 0.999064713716507
+    },
+    {
+      "word": "The",
+      "start_sec": 3.7414,
+      "end_sec": 3.8214,
+      "confidence": 0.9992918173472086
+    },
+    {
+      "word": "first",
+      "start_sec": 3.8814,
+      "end_sec": 4.1215,
+      "confidence": 0.9924254247120449
+    },
+    {
+      "word": "story",
+      "start_sec": 4.1815,
+      "end_sec": 4.4616,
+      "confidence": 0.9996992707252502
+    },
+    {
+      "word": "is",
+      "start_sec": 4.5617,
+      "end_sec": 4.6617,
+      "confidence": 0.998857855796814
+    },
+    {
+      "word": "about",
+      "start_sec": 4.7017,
+      "end_sec": 4.9418,
+      "confidence": 0.999225378036499
+    },
+    {
+      "word": "connecting",
+      "start_sec": 5.0018,
+      "end_sec": 5.442,
+      "confidence": 0.9697258820136389
+    },
+    {
+      "word": "the",
+      "start_sec": 5.482,
+      "end_sec": 5.562,
+      "confidence": 0.9946398933728536
+    },
+    {
+      "word": "dots.",
+      "start_sec": 5.602,
+      "end_sec": 5.9622,
+      "confidence": 0.9358098983764649
+    },
+    {
+      "word": "You",
+      "start_sec": 7.0025,
+      "end_sec": 7.1026,
+      "confidence": 0.973127618432045
+    },
+    {
+      "word": "cannot",
+      "start_sec": 7.1626,
+      "end_sec": 7.4627,
+      "confidence": 0.9509579936663309
+    },
+    {
+      "word": "connect",
+      "start_sec": 7.5227,
+      "end_sec": 7.8629,
+      "confidence": 0.9455152526497841
+    },
+    {
+      "word": "the",
+      "start_sec": 7.9029,
+      "end_sec": 7.9829,
+      "confidence": 0.9820162206888199
+    },
+    {
+      "word": "dots",
+      "start_sec": 8.0429,
+      "end_sec": 8.323,
+      "confidence": 0.9469463229179382
+    },
+    {
+      "word": "looking",
+      "start_sec": 8.403,
+      "end_sec": 8.6631,
+      "confidence": 0.9994517309325082
+    },
+    {
+      "word": "forward.",
+      "start_sec": 8.7232,
+      "end_sec": 9.1433,
+      "confidence": 0.9961230680346489
+    },
+    {
+      "word": "You",
+      "start_sec": 10.1637,
+      "end_sec": 10.2637,
+      "confidence": 0.9450185596942902
+    },
+    {
+      "word": "can",
+      "start_sec": 10.2837,
+      "end_sec": 10.4238,
+      "confidence": 0.9996059338251749
+    },
+    {
+      "word": "only",
+      "start_sec": 10.4838,
+      "end_sec": 10.6839,
+      "confidence": 0.9955738484859467
+    },
+    {
+      "word": "connect",
+      "start_sec": 10.7639,
+      "end_sec": 11.084,
+      "confidence": 0.9940822049975395
+    },
+    {
+      "word": "them",
+      "start_sec": 11.124,
+      "end_sec": 11.2641,
+      "confidence": 0.934362268447876
+    },
+    {
+      "word": "looking",
+      "start_sec": 11.3241,
+      "end_sec": 11.6042,
+      "confidence": 0.9995517219815936
+    },
+    {
+      "word": "backward.",
+      "start_sec": 11.6642,
+      "end_sec": 12.1044,
+      "confidence": 0.9502178072929383
+    },
+    {
+      "word": "So",
+      "start_sec": 13.1648,
+      "end_sec": 13.2448,
+      "confidence": 0.9996448457241058
+    },
+    {
+      "word": "you",
+      "start_sec": 13.3248,
+      "end_sec": 13.4249,
+      "confidence": 0.9934041202068329
+    },
+    {
+      "word": "have",
+      "start_sec": 13.4649,
+      "end_sec": 13.6249,
+      "confidence": 0.9993016123771667
+    },
+    {
+      "word": "to",
+      "start_sec": 13.645,
+      "end_sec": 13.705,
+      "confidence": 0.9984203577041626
+    },
+    {
+      "word": "trust",
+      "start_sec": 13.765,
+      "end_sec": 14.0451,
+      "confidence": 0.9926022035734994
+    },
+    {
+      "word": "that",
+      "start_sec": 14.0651,
+      "end_sec": 14.2052,
+      "confidence": 0.9893021583557129
+    },
+    {
+      "word": "the",
+      "start_sec": 14.2452,
+      "end_sec": 14.3252,
+      "confidence": 0.9932129234075546
+    },
+    {
+      "word": "dots",
+      "start_sec": 14.3852,
+      "end_sec": 14.6653,
+      "confidence": 0.9222398102283478
+    },
+    {
+      "word": "will",
+      "start_sec": 14.7053,
+      "end_sec": 14.8454,
+      "confidence": 0.9951712012290954
+    },
+    {
+      "word": "somehow",
+      "start_sec": 14.9054,
+      "end_sec": 15.2655,
+      "confidence": 0.97622499614954
+    },
+    {
+      "word": "connect",
+      "start_sec": 15.3256,
+      "end_sec": 15.6657,
+      "confidence": 0.9996981876237052
+    },
+    {
+      "word": "in",
+      "start_sec": 15.7057,
+      "end_sec": 15.7857,
+      "confidence": 0.997387707233429
+    },
+    {
+      "word": "your",
+      "start_sec": 15.8257,
+      "end_sec": 15.9458,
+      "confidence": 0.9965144276618958
+    },
+    {
+      "word": "future.",
+      "start_sec": 15.9858,
+      "end_sec": 16.3659,
+      "confidence": 0.99959663550059
+    },
+    {
+      "word": "You",
+      "start_sec": 17.4463,
+      "end_sec": 17.5264,
+      "confidence": 0.9967314898967743
+    },
+    {
+      "word": "have",
+      "start_sec": 17.5664,
+      "end_sec": 17.7264,
+      "confidence": 0.964615156253179
+    },
+    {
+      "word": "to",
+      "start_sec": 17.7464,
+      "end_sec": 17.7865,
+      "confidence": 0.996078372001648
+    },
+    {
+      "word": "trust",
+      "start_sec": 17.8465,
+      "end_sec": 18.1066,
+      "confidence": 0.9985810875892639
+    },
+    {
+      "word": "in",
+      "start_sec": 18.1466,
+      "end_sec": 18.2266,
+      "confidence": 0.9935752749443054
+    },
+    {
+      "word": "something:",
+      "start_sec": 18.2866,
+      "end_sec": 18.6468,
+      "confidence": 0.9987925820880466
+    },
+    {
+      "word": "your",
+      "start_sec": 18.8668,
+      "end_sec": 18.9869,
+      "confidence": 0.9855446100234986
+    },
+    {
+      "word": "gut,",
+      "start_sec": 19.0469,
+      "end_sec": 19.267,
+      "confidence": 0.9178751309712728
+    },
+    {
+      "word": "destiny,",
+      "start_sec": 19.4871,
+      "end_sec": 19.8872,
+      "confidence": 0.9981028352464948
+    },
+    {
+      "word": "life,",
+      "start_sec": 20.1473,
+      "end_sec": 20.4074,
+      "confidence": 0.9987466335296631
+    },
+    {
+      "word": "karma,",
+      "start_sec": 20.6075,
+      "end_sec": 20.8876,
+      "confidence": 0.8939308762550354
+    },
+    {
+      "word": "whatever.",
+      "start_sec": 21.1477,
+      "end_sec": 21.5278,
+      "confidence": 0.9368863463401794
+    },
+    {
+      "word": "Because",
+      "start_sec": 22.5482,
+      "end_sec": 22.8683,
+      "confidence": 0.999625929764339
+    },
+    {
+      "word": "believing",
+      "start_sec": 22.9083,
+      "end_sec": 23.3285,
+      "confidence": 0.9971300840377808
+    },
+    {
+      "word": "that",
+      "start_sec": 23.3685,
+      "end_sec": 23.4885,
+      "confidence": 0.9990591257810593
+    },
+    {
+      "word": "the",
+      "start_sec": 23.5085,
+      "end_sec": 23.5886,
+      "confidence": 0.9929031431674957
+    },
+    {
+      "word": "dots",
+      "start_sec": 23.6486,
+      "end_sec": 23.9287,
+      "confidence": 0.9464356154203415
+    },
+    {
+      "word": "will",
+      "start_sec": 23.9687,
+      "end_sec": 24.0887,
+      "confidence": 0.9913482904434204
+    },
+    {
+      "word": "connect",
+      "start_sec": 24.1288,
+      "end_sec": 24.4689,
+      "confidence": 0.9949173927307129
+    },
+    {
+      "word": "down",
+      "start_sec": 24.5289,
+      "end_sec": 24.689,
+      "confidence": 0.9991595298051834
+    },
+    {
+      "word": "the",
+      "start_sec": 24.709,
+      "end_sec": 24.789,
+      "confidence": 0.9944692105054855
+    },
+    {
+      "word": "road",
+      "start_sec": 24.849,
+      "end_sec": 25.0691,
+      "confidence": 0.9988907873630524
+    },
+    {
+      "word": "will",
+      "start_sec": 25.1091,
+      "end_sec": 25.2292,
+      "confidence": 0.9968950390815735
+    },
+    {
+      "word": "give",
+      "start_sec": 25.2692,
+      "end_sec": 25.4492,
+      "confidence": 0.9997845888137817
+    },
+    {
+      "word": "you",
+      "start_sec": 25.4692,
+      "end_sec": 25.5293,
+      "confidence": 0.9988746841748556
+    },
+    {
+      "word": "the",
+      "start_sec": 25.5693,
+      "end_sec": 25.6493,
+      "confidence": 0.9991123477617899
+    },
+    {
+      "word": "confidence",
+      "start_sec": 25.6893,
+      "end_sec": 26.2495,
+      "confidence": 0.9952002167701721
+    },
+    {
+      "word": "to",
+      "start_sec": 26.2695,
+      "end_sec": 26.3296,
+      "confidence": 0.9990156888961792
+    },
+    {
+      "word": "follow",
+      "start_sec": 26.4096,
+      "end_sec": 26.6697,
+      "confidence": 0.9478619865008763
+    },
+    {
+      "word": "your",
+      "start_sec": 26.7297,
+      "end_sec": 26.8497,
+      "confidence": 0.9773455739021302
+    },
+    {
+      "word": "heart",
+      "start_sec": 26.8898,
+      "end_sec": 27.0898,
+      "confidence": 0.9577107032140096
+    },
+    {
+      "word": "and",
+      "start_sec": 27.1499,
+      "end_sec": 27.2499,
+      "confidence": 0.6289398620525996
+    },
+    {
+      "word": "intuition.",
+      "start_sec": 27.2699,
+      "end_sec": 27.8301,
+      "confidence": 0.9729406966103448
+    },
+    {
+      "word": "Somehow",
+      "start_sec": 28.9105,
+      "end_sec": 29.2506,
+      "confidence": 0.9434490468766954
+    },
+    {
+      "word": "they",
+      "start_sec": 29.3106,
+      "end_sec": 29.4107,
+      "confidence": 0.9993390291929245
+    },
+    {
+      "word": "already",
+      "start_sec": 29.5107,
+      "end_sec": 29.8308,
+      "confidence": 0.9988179471757677
+    },
+    {
+      "word": "know",
+      "start_sec": 29.8908,
+      "end_sec": 30.0709,
+      "confidence": 0.911373903354009
+    },
+    {
+      "word": "what",
+      "start_sec": 30.1309,
+      "end_sec": 30.271,
+      "confidence": 0.9969798028469086
+    },
+    {
+      "word": "you",
+      "start_sec": 30.311,
+      "end_sec": 30.411,
+      "confidence": 0.9969459623098373
+    },
+    {
+      "word": "truly",
+      "start_sec": 30.4711,
+      "end_sec": 30.7912,
+      "confidence": 0.9995522499084473
+    },
+    {
+      "word": "want",
+      "start_sec": 30.8912,
+      "end_sec": 31.0513,
+      "confidence": 0.9995248019695282
+    },
+    {
+      "word": "to",
+      "start_sec": 31.0913,
+      "end_sec": 31.1513,
+      "confidence": 0.9961941540241241
+    },
+    {
+      "word": "become.",
+      "start_sec": 31.1913,
+      "end_sec": 31.5915,
+      "confidence": 0.9995785355567932
+    },
+    {
+      "word": "Everything",
+      "start_sec": 32.5918,
+      "end_sec": 32.992,
+      "confidence": 0.9972491413354874
+    },
+    {
+      "word": "else",
+      "start_sec": 33.072,
+      "end_sec": 33.2921,
+      "confidence": 0.9510374784469604
+    },
+    {
+      "word": "is",
+      "start_sec": 33.3121,
+      "end_sec": 33.4121,
+      "confidence": 0.9924996495246887
+    },
+    {
+      "word": "secondary.",
+      "start_sec": 33.4721,
+      "end_sec": 33.9923,
+      "confidence": 0.9992419878641764
+    },
+    {
+      "word": "Stay",
+      "start_sec": 35.1528,
+      "end_sec": 35.3728,
+      "confidence": 0.9988023936748505
+    },
+    {
+      "word": "hungry.",
+      "start_sec": 35.4529,
+      "end_sec": 35.753,
+      "confidence": 0.998043030500412
+    },
+    {
+      "word": "Stay",
+      "start_sec": 36.9534,
+      "end_sec": 37.1535,
+      "confidence": 0.9988812804222107
+    },
+    {
+      "word": "foolish.",
+      "start_sec": 37.2535,
+      "end_sec": 37.6737,
+      "confidence": 0.9620296955108643
+    }
+  ],
+  "pauses": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 0.2201,
+      "duration_sec": 0.2201
+    },
+    {
+      "start_sec": 0.5202,
+      "end_sec": 0.6802,
+      "duration_sec": 0.16
+    },
+    {
+      "start_sec": 2.721,
+      "end_sec": 3.7414,
+      "duration_sec": 1.0204
+    },
+    {
+      "start_sec": 5.9622,
+      "end_sec": 7.0025,
+      "duration_sec": 1.0403
+    },
+    {
+      "start_sec": 9.1433,
+      "end_sec": 10.1637,
+      "duration_sec": 1.0204
+    },
+    {
+      "start_sec": 12.1044,
+      "end_sec": 13.1648,
+      "duration_sec": 1.0604
+    },
+    {
+      "start_sec": 16.3659,
+      "end_sec": 17.4463,
+      "duration_sec": 1.0804
+    },
+    {
+      "start_sec": 18.6468,
+      "end_sec": 18.8668,
+      "duration_sec": 0.22
+    },
+    {
+      "start_sec": 19.267,
+      "end_sec": 19.4871,
+      "duration_sec": 0.2201
+    },
+    {
+      "start_sec": 19.8872,
+      "end_sec": 20.1473,
+      "duration_sec": 0.2601
+    },
+    {
+      "start_sec": 20.4074,
+      "end_sec": 20.6075,
+      "duration_sec": 0.2001
+    },
+    {
+      "start_sec": 20.8876,
+      "end_sec": 21.1477,
+      "duration_sec": 0.2601
+    },
+    {
+      "start_sec": 21.5278,
+      "end_sec": 22.5482,
+      "duration_sec": 1.0204
+    },
+    {
+      "start_sec": 27.8301,
+      "end_sec": 28.9105,
+      "duration_sec": 1.0804
+    },
+    {
+      "start_sec": 31.5915,
+      "end_sec": 32.5918,
+      "duration_sec": 1.0003
+    },
+    {
+      "start_sec": 33.9923,
+      "end_sec": 35.1528,
+      "duration_sec": 1.1605
+    },
+    {
+      "start_sec": 35.753,
+      "end_sec": 36.9534,
+      "duration_sec": 1.2004
+    },
+    {
+      "start_sec": 37.6737,
+      "end_sec": 38.574,
+      "duration_sec": 0.9003
+    }
+  ],
+  "transcript_path": "dataset/raw_baseline/speech_A.txt",
+  "duration_sec": 38.574,
+  "backend": "mms (mean_conf=0.979)",
+  "device": "cpu"
+}

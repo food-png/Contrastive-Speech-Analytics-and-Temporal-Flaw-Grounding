@@ -1,0 +1,239 @@
+{
+  "sample_id": "speech_A_level3_botched",
+  "baseline_id": "speech_A_baseline",
+  "severity_level": 3,
+  "overall_score": 35.5,
+  "letter_grade": "F",
+  "dimension_scores": {
+    "pacing_score": 0.0,
+    "dynamic_energy_score": 0.0,
+    "tonal_variety_score": 25.0,
+    "pause_discipline_score": 10.5
+  },
+  "flaw_count_by_severity": {
+    "1": 2,
+    "2": 2,
+    "3": 7
+  },
+  "detailed_flaw_diagnoses": [
+    {
+      "flaw_id": "det_01",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 5.963,
+      "end_sec": 9.525,
+      "duration_sec": 3.562,
+      "severity_score": 1.0,
+      "target_phrase": "",
+      "math_evidence": "Unscheduled silence of 3.56s (reference pause was 1.04s).",
+      "causal_rationale": "Prolonged hesitation between 'dots.' and 'You'.",
+      "impact": "Breaks syntactic momentum and signals hesitation or memory lapse to adjudicators.",
+      "actionable_feedback": "Maintain steady breathing cadence; if pausing for dramatic effect, cap duration at 0.8\u20131.2s.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "cand_pause_sec": 3.562,
+        "base_pause_sec": 1.04,
+        "delta_pause_sec": 2.522,
+        "mult_threshold": 3.0
+      }
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 18.89,
+      "end_sec": 22.131,
+      "duration_sec": 3.242,
+      "severity_score": 0.8708,
+      "target_phrase": "",
+      "math_evidence": "Unscheduled silence of 3.24s (reference pause was 1.06s).",
+      "causal_rationale": "Prolonged hesitation between 'future.' and 'You'.",
+      "impact": "Breaks syntactic momentum and signals hesitation or memory lapse to adjudicators.",
+      "actionable_feedback": "Maintain steady breathing cadence; if pausing for dramatic effect, cap duration at 0.8\u20131.2s.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "cand_pause_sec": 3.242,
+        "base_pause_sec": 1.06,
+        "delta_pause_sec": 2.181,
+        "mult_threshold": 3.0
+      }
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 24.224,
+      "end_sec": 26.08,
+      "duration_sec": 1.856,
+      "severity_score": 1.0,
+      "target_phrase": "destiny, life, karma, whatever.",
+      "math_evidence": "Loudness surged by +60.0 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'destiny, life, karma, whatever.'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_04",
+      "category": "pacing",
+      "sub_type": "dragging_cadence",
+      "start_sec": 26.624,
+      "end_sec": 29.024,
+      "duration_sec": 2.4,
+      "severity_score": 0.7286,
+      "target_phrase": "Because",
+      "math_evidence": "Speaking rate fell to 70 WPM (0.3x reference rate of 120 WPM).",
+      "causal_rationale": "Excessive syllable elongation across phrase 'Because'.",
+      "impact": "Momentum collapses; adjudicators perceive hesitation and loss of argumentative drive.",
+      "actionable_feedback": "Tighten clause transitions and reclaim a steady mid-tempo cadence near the reference rate.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "pacing_ratio_median": 0.2857,
+        "threshold": 0.65
+      }
+    },
+    {
+      "flaw_id": "det_05",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 27.296,
+      "end_sec": 27.552,
+      "duration_sec": 0.256,
+      "severity_score": 1.0,
+      "target_phrase": "Because",
+      "math_evidence": "Loudness surged by +60.0 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'Because'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_06",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 30.272,
+      "end_sec": 30.688,
+      "duration_sec": 0.416,
+      "severity_score": 1.0,
+      "target_phrase": "believing that the dots",
+      "math_evidence": "Loudness surged by +28.5 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'believing that the dots'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 28.539,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_07",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 31.712,
+      "end_sec": 31.808,
+      "duration_sec": 0.096,
+      "severity_score": 0.3888,
+      "target_phrase": "the",
+      "math_evidence": "Loudness surged by +16.7 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'the'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 16.665,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_08",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 32.512,
+      "end_sec": 33.184,
+      "duration_sec": 0.672,
+      "severity_score": 1.0,
+      "target_phrase": "you the confidence",
+      "math_evidence": "Loudness surged by +26.2 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'you the confidence'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 26.159,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_09",
+      "category": "pacing",
+      "sub_type": "rushed_delivery",
+      "start_sec": 37.248,
+      "end_sec": 38.848,
+      "duration_sec": 1.6,
+      "severity_score": 0.5833,
+      "target_phrase": "want to become. Everything else is secondary.",
+      "math_evidence": "Speaking rate reached 235 WPM (1.8x reference rate of 131 WPM).",
+      "causal_rationale": "Rapid syllable compression across phrase 'want to become. Everything else is secondary.'.",
+      "impact": "Audience retention drops as cognitive processing time is truncated; removes natural rhetorical weight.",
+      "actionable_feedback": "Decelerate through key clauses, allowing consonants to fully articulate before the next clause.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "pacing_ratio_median": 1.75,
+        "threshold": 1.4,
+        "mean_wpm_cand": 234.9,
+        "mean_wpm_base": 130.86
+      }
+    },
+    {
+      "flaw_id": "det_10",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 37.664,
+      "end_sec": 37.792,
+      "duration_sec": 0.128,
+      "severity_score": 1.0,
+      "target_phrase": "",
+      "math_evidence": "Loudness surged by +39.4 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'the marked clause'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 39.419,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_11",
+      "category": "pacing",
+      "sub_type": "rushed_delivery",
+      "start_sec": 39.68,
+      "end_sec": 40.16,
+      "duration_sec": 0.48,
+      "severity_score": 0.4444,
+      "target_phrase": "Stay",
+      "math_evidence": "Speaking rate reached 115 WPM (1.7x reference rate of 67 WPM).",
+      "causal_rationale": "Rapid syllable compression across phrase 'Stay'.",
+      "impact": "Audience retention drops as cognitive processing time is truncated; removes natural rhetorical weight.",
+      "actionable_feedback": "Decelerate through key clauses, allowing consonants to fully articulate before the next clause.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "pacing_ratio_median": 1.6667,
+        "threshold": 1.4,
+        "mean_wpm_cand": 114.67,
+        "mean_wpm_base": 66.69
+      }
+    }
+  ],
+  "executive_summary": "speech_A_level3_botched (Level 3) earns 35.5/100 (F). Primary flag: pause/awkward_pause near 6.0\u20139.5s \u2014 Prolonged hesitation between 'dots.' and 'You'. Maintain steady breathing cadence; if pausing for dramatic effect, cap duration at 0.8\u20131.2s.",
+  "primary_causal_flag": "pause/awkward_pause"
+}

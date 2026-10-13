@@ -1,0 +1,21 @@
+{
+  "sample_id": "speech_A_level1_subtle_pitch_flatten",
+  "baseline_id": "speech_A_baseline",
+  "severity_level": 1,
+  "overall_score": 89.0,
+  "letter_grade": "B",
+  "dimension_scores": {
+    "pacing_score": 23.23,
+    "dynamic_energy_score": 22.81,
+    "tonal_variety_score": 23.23,
+    "pause_discipline_score": 19.73
+  },
+  "flaw_count_by_severity": {
+    "1": 0,
+    "2": 0,
+    "3": 0
+  },
+  "detailed_flaw_diagnoses": [],
+  "executive_summary": "speech_A_level1_subtle_pitch_flatten (Level 1) earns 89.0/100 (B). No material acoustic anomalies were isolated relative to the baseline reference.",
+  "primary_causal_flag": "none"
+}

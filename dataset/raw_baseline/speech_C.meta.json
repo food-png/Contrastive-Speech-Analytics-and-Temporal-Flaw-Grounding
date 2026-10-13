@@ -1,0 +1,38 @@
+{
+  "baseline_id": "speech_C_baseline",
+  "sample_key": "C",
+  "style": "interpretive_expressive",
+  "source": "edge_tts:en-US-JennyNeural",
+  "voice": "en-US-JennyNeural",
+  "duration_sec": 30.84,
+  "sample_rate": 16000,
+  "channels": 1,
+  "bit_depth": 16,
+  "peak_dbfs": -1.0,
+  "transcript_path": "dataset/raw_baseline/speech_C.txt",
+  "raw_audio_path": "dataset/raw_baseline/speech_C.wav",
+  "processed_audio_path": "dataset/processed_baseline/speech_C_baseline.wav",
+  "phrase_windows": {
+    "clause_1": {
+      "start_sec": 3.925,
+      "end_sec": 7.289,
+      "text": "the river carried old secrets downstream"
+    },
+    "clause_2": {
+      "start_sec": 10.093,
+      "end_sec": 13.457,
+      "text": "Memory rose like mist"
+    },
+    "clause_3": {
+      "start_sec": 16.822,
+      "end_sec": 20.186,
+      "text": "Grief and gratitude arrived together"
+    },
+    "clause_4": {
+      "start_sec": 23.551,
+      "end_sec": 28.036,
+      "text": "low as thunder, bright as glass, unbroken"
+    }
+  },
+  "generated_at": "2026-10-13T13:46:48.370109+00:00"
+}

@@ -1,0 +1,334 @@
+{
+  "sample_id": "speech_B_level3_botched",
+  "baseline_id": "speech_B_baseline",
+  "severity_level": 3,
+  "overall_score": 33.34,
+  "letter_grade": "F",
+  "dimension_scores": {
+    "pacing_score": 8.38,
+    "dynamic_energy_score": 0.0,
+    "tonal_variety_score": 14.6,
+    "pause_discipline_score": 10.36
+  },
+  "flaw_count_by_severity": {
+    "1": 2,
+    "2": 4,
+    "3": 10
+  },
+  "detailed_flaw_diagnoses": [
+    {
+      "flaw_id": "det_01",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 5.024,
+      "end_sec": 5.248,
+      "duration_sec": 0.224,
+      "severity_score": 1.0,
+      "target_phrase": "First,",
+      "math_evidence": "Loudness surged by +31.5 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'First,'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 31.539,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 5.461,
+      "end_sec": 8.082,
+      "duration_sec": 2.62,
+      "severity_score": 0.5602,
+      "target_phrase": "",
+      "math_evidence": "Unscheduled silence of 2.62s (reference pause was 0.30s).",
+      "causal_rationale": "Prolonged hesitation between 'First,' and 'transparency'.",
+      "impact": "Breaks syntactic momentum and signals hesitation or memory lapse to adjudicators.",
+      "actionable_feedback": "Maintain steady breathing cadence; if pausing for dramatic effect, cap duration at 0.8\u20131.2s.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "cand_pause_sec": 2.62,
+        "base_pause_sec": 0.3,
+        "delta_pause_sec": 2.321,
+        "mult_threshold": 3.0
+      }
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 8.128,
+      "end_sec": 8.384,
+      "duration_sec": 0.256,
+      "severity_score": 1.0,
+      "target_phrase": "transparency",
+      "math_evidence": "Loudness surged by +58.3 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'transparency'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 58.275,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_04",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 9.504,
+      "end_sec": 9.6,
+      "duration_sec": 0.096,
+      "severity_score": 0.7767,
+      "target_phrase": "leaders",
+      "math_evidence": "Loudness surged by +21.3 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'leaders'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 21.32,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_05",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 13.728,
+      "end_sec": 15.264,
+      "duration_sec": 1.536,
+      "severity_score": 1.0,
+      "target_phrase": "structured opposition exposes",
+      "math_evidence": "Loudness surged by +60.0 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'structured opposition exposes'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_06",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 15.443,
+      "end_sec": 18.004,
+      "duration_sec": 2.561,
+      "severity_score": 0.5303,
+      "target_phrase": "",
+      "math_evidence": "Unscheduled silence of 2.56s (reference pause was 0.00s).",
+      "causal_rationale": "Prolonged hesitation between 'weak' and 'arguments'.",
+      "impact": "Breaks syntactic momentum and signals hesitation or memory lapse to adjudicators.",
+      "actionable_feedback": "Maintain steady breathing cadence; if pausing for dramatic effect, cap duration at 0.8\u20131.2s.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "cand_pause_sec": 2.561,
+        "base_pause_sec": 0.0,
+        "delta_pause_sec": 2.561,
+        "mult_threshold": 3.0
+      }
+    },
+    {
+      "flaw_id": "det_07",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 18.016,
+      "end_sec": 18.688,
+      "duration_sec": 0.672,
+      "severity_score": 0.2693,
+      "target_phrase": "arguments before",
+      "math_evidence": "Loudness surged by +15.2 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'arguments before'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 15.232,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_08",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 26.432,
+      "end_sec": 26.816,
+      "duration_sec": 0.384,
+      "severity_score": 0.7803,
+      "target_phrase": "opponents claim",
+      "math_evidence": "Loudness surged by +21.4 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'opponents claim'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 21.363,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_09",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 26.906,
+      "end_sec": 29.346,
+      "duration_sec": 2.441,
+      "severity_score": 0.4702,
+      "target_phrase": "",
+      "math_evidence": "Unscheduled silence of 2.44s (reference pause was 0.00s).",
+      "causal_rationale": "Prolonged hesitation between 'claim' and 'speed'.",
+      "impact": "Breaks syntactic momentum and signals hesitation or memory lapse to adjudicators.",
+      "actionable_feedback": "Maintain steady breathing cadence; if pausing for dramatic effect, cap duration at 0.8\u20131.2s.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "cand_pause_sec": 2.441,
+        "base_pause_sec": 0.0,
+        "delta_pause_sec": 2.441,
+        "mult_threshold": 3.0
+      }
+    },
+    {
+      "flaw_id": "det_10",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 29.728,
+      "end_sec": 31.008,
+      "duration_sec": 1.28,
+      "severity_score": 1.0,
+      "target_phrase": "matters more than scrutiny.",
+      "math_evidence": "Loudness surged by +60.0 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'matters more than scrutiny.'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_11",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 31.936,
+      "end_sec": 33.44,
+      "duration_sec": 1.504,
+      "severity_score": 1.0,
+      "target_phrase": "We reject that false tradeoff.",
+      "math_evidence": "Loudness surged by +60.0 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'We reject that false tradeoff.'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 60.0,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_12",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 34.592,
+      "end_sec": 34.784,
+      "duration_sec": 0.192,
+      "severity_score": 0.9177,
+      "target_phrase": "Rushed",
+      "math_evidence": "Loudness surged by +23.0 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'Rushed'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 23.013,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_13",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 35.424,
+      "end_sec": 35.84,
+      "duration_sec": 0.416,
+      "severity_score": 0.2018,
+      "target_phrase": "legislation is fragile",
+      "math_evidence": "Loudness surged by +14.4 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'legislation is fragile'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 14.421,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_14",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 36.256,
+      "end_sec": 36.896,
+      "duration_sec": 0.64,
+      "severity_score": 1.0,
+      "target_phrase": "legislation.",
+      "math_evidence": "Loudness surged by +55.2 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'legislation.'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 55.232,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_15",
+      "category": "pacing",
+      "sub_type": "rushed_delivery",
+      "start_sec": 36.864,
+      "end_sec": 37.696,
+      "duration_sec": 0.832,
+      "severity_score": 0.5833,
+      "target_phrase": "Vote for deliberation.",
+      "math_evidence": "Speaking rate reached 150 WPM (1.8x reference rate of 83 WPM).",
+      "causal_rationale": "Rapid syllable compression across phrase 'Vote for deliberation.'.",
+      "impact": "Audience retention drops as cognitive processing time is truncated; removes natural rhetorical weight.",
+      "actionable_feedback": "Decelerate through key clauses, allowing consonants to fully articulate before the next clause.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "pacing_ratio_median": 1.75,
+        "threshold": 1.4,
+        "mean_wpm_cand": 150.37,
+        "mean_wpm_base": 82.57
+      }
+    },
+    {
+      "flaw_id": "det_16",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 37.696,
+      "end_sec": 38.048,
+      "duration_sec": 0.352,
+      "severity_score": 1.0,
+      "target_phrase": "deliberation.",
+      "math_evidence": "Loudness surged by +52.2 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'deliberation.'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 52.232,
+        "threshold_db": 12.0
+      }
+    }
+  ],
+  "executive_summary": "speech_B_level3_botched (Level 3) earns 33.3/100 (F). Primary flag: energy/volume_spike near 13.7\u201315.3s \u2014 Uncontrolled acoustic burst on unstressed syllable 'structured opposition exposes'. Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+  "primary_causal_flag": "energy/volume_spike"
+}

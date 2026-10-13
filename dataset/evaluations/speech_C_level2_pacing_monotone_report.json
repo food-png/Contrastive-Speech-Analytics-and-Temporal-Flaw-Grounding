@@ -1,0 +1,214 @@
+{
+  "sample_id": "speech_C_level2_pacing_monotone",
+  "baseline_id": "speech_C_baseline",
+  "severity_level": 2,
+  "overall_score": 65.0,
+  "letter_grade": "D",
+  "dimension_scores": {
+    "pacing_score": 14.14,
+    "dynamic_energy_score": 0.0,
+    "tonal_variety_score": 14.36,
+    "pause_discipline_score": 25.0
+  },
+  "flaw_count_by_severity": {
+    "1": 2,
+    "2": 2,
+    "3": 6
+  },
+  "detailed_flaw_diagnoses": [
+    {
+      "flaw_id": "det_01",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 5.504,
+      "end_sec": 7.806,
+      "duration_sec": 2.302,
+      "severity_score": 0.4009,
+      "target_phrase": "",
+      "math_evidence": "Unscheduled silence of 2.30s (reference pause was 0.00s).",
+      "causal_rationale": "Prolonged hesitation between 'the' and 'edge'.",
+      "impact": "Breaks syntactic momentum and signals hesitation or memory lapse to adjudicators.",
+      "actionable_feedback": "Maintain steady breathing cadence; if pausing for dramatic effect, cap duration at 0.8\u20131.2s.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "cand_pause_sec": 2.302,
+        "base_pause_sec": 0.0,
+        "delta_pause_sec": 2.302,
+        "mult_threshold": 3.0
+      }
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 7.968,
+      "end_sec": 8.416,
+      "duration_sec": 0.448,
+      "severity_score": 1.0,
+      "target_phrase": "and listened to",
+      "math_evidence": "Loudness surged by +27.1 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'and listened to'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 27.14,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 9.088,
+      "end_sec": 10.016,
+      "duration_sec": 0.928,
+      "severity_score": 1.0,
+      "target_phrase": "braid through the reeds.",
+      "math_evidence": "Loudness surged by +57.2 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'braid through the reeds.'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 57.236,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_04",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 11.104,
+      "end_sec": 12.032,
+      "duration_sec": 0.928,
+      "severity_score": 1.0,
+      "target_phrase": "Memory rose like mist:",
+      "math_evidence": "Loudness surged by +55.4 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'Memory rose like mist:'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 55.388,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_05",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 12.544,
+      "end_sec": 12.992,
+      "duration_sec": 0.448,
+      "severity_score": 1.0,
+      "target_phrase": "childhood kitchen,",
+      "math_evidence": "Loudness surged by +38.1 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'childhood kitchen,'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 38.055,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_06",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 14.08,
+      "end_sec": 14.528,
+      "duration_sec": 0.448,
+      "severity_score": 0.4495,
+      "target_phrase": "half-forgotten.",
+      "math_evidence": "Loudness surged by +17.4 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'half-forgotten.'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 17.394,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_07",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 15.648,
+      "end_sec": 15.872,
+      "duration_sec": 0.224,
+      "severity_score": 0.4723,
+      "target_phrase": "and gratitude",
+      "math_evidence": "Loudness surged by +17.7 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'and gratitude'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 17.668,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_08",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 17.152,
+      "end_sec": 17.408,
+      "duration_sec": 0.256,
+      "severity_score": 1.0,
+      "target_phrase": "neither",
+      "math_evidence": "Loudness surged by +26.8 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'neither'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 26.822,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_09",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 19.648,
+      "end_sec": 20.576,
+      "duration_sec": 0.928,
+      "severity_score": 1.0,
+      "target_phrase": "She spoke softly to",
+      "math_evidence": "Loudness surged by +25.1 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'She spoke softly to'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 25.125,
+        "threshold_db": 12.0
+      }
+    },
+    {
+      "flaw_id": "det_10",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 25.216,
+      "end_sec": 25.536,
+      "duration_sec": 0.32,
+      "severity_score": 0.4943,
+      "target_phrase": "touched",
+      "math_evidence": "Loudness surged by +17.9 dB relative to speaker baseline.",
+      "causal_rationale": "Uncontrolled acoustic burst on unstressed syllable 'touched'.",
+      "impact": "Distorts dynamic equilibrium and produces jarring acoustic artifacts.",
+      "actionable_feedback": "Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+      "llm_enrichment": null,
+      "mathematical_evidence_raw": {
+        "peak_delta_db": 17.932,
+        "threshold_db": 12.0
+      }
+    }
+  ],
+  "executive_summary": "speech_C_level2_pacing_monotone (Level 2) earns 65.0/100 (D). Primary flag: energy/volume_spike near 9.1\u201310.0s \u2014 Uncontrolled acoustic burst on unstressed syllable 'braid through the reeds.'. Project from the diaphragm with steady breath support rather than vocal tract pushing.",
+  "primary_causal_flag": "energy/volume_spike"
+}

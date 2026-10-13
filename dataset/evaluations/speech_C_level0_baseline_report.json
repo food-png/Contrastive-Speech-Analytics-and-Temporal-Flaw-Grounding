@@ -1,0 +1,21 @@
+{
+  "sample_id": "speech_C_level0_baseline",
+  "baseline_id": "speech_C_baseline",
+  "severity_level": 0,
+  "overall_score": 92.5,
+  "letter_grade": "A",
+  "dimension_scores": {
+    "pacing_score": 23.05,
+    "dynamic_energy_score": 23.11,
+    "tonal_variety_score": 23.17,
+    "pause_discipline_score": 23.17
+  },
+  "flaw_count_by_severity": {
+    "1": 0,
+    "2": 0,
+    "3": 0
+  },
+  "detailed_flaw_diagnoses": [],
+  "executive_summary": "speech_C_level0_baseline (Level 0) earns 92.5/100 (A). No material acoustic anomalies were isolated relative to the baseline reference.",
+  "primary_causal_flag": "none"
+}

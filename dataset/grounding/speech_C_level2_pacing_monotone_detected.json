@@ -1,0 +1,133 @@
+{
+  "candidate_id": "speech_C_level2_pacing_monotone",
+  "baseline_id": "speech_C_baseline",
+  "flaws": [
+    {
+      "flaw_id": "det_01",
+      "category": "pause",
+      "sub_type": "awkward_pause",
+      "start_sec": 5.404,
+      "end_sec": 7.906,
+      "duration_sec": 2.502,
+      "severity_score": 0.4008999979955001,
+      "mathematical_evidence": {
+        "cand_pause_sec": 2.302,
+        "base_pause_sec": 0.0,
+        "delta_pause_sec": 2.302,
+        "mult_threshold": 3.0
+      },
+      "target_phrase": ""
+    },
+    {
+      "flaw_id": "det_02",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 7.868,
+      "end_sec": 8.516,
+      "duration_sec": 0.648,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 27.14,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "and listened to"
+    },
+    {
+      "flaw_id": "det_03",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 8.988,
+      "end_sec": 10.116,
+      "duration_sec": 1.128,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 57.236,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "braid through the reeds."
+    },
+    {
+      "flaw_id": "det_04",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 11.004,
+      "end_sec": 14.628,
+      "duration_sec": 3.624,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 55.388,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "Memory rose like mist: a childhood kitchen, warm bread, a"
+    },
+    {
+      "flaw_id": "det_05",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 15.548,
+      "end_sec": 15.972,
+      "duration_sec": 0.424,
+      "severity_score": 0.47230524630318177,
+      "mathematical_evidence": {
+        "peak_delta_db": 17.668,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "and gratitude"
+    },
+    {
+      "flaw_id": "det_06",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 17.052,
+      "end_sec": 17.508,
+      "duration_sec": 0.456,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 26.822,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "neither"
+    },
+    {
+      "flaw_id": "det_07",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 19.548,
+      "end_sec": 21.252,
+      "duration_sec": 1.704,
+      "severity_score": 1.0,
+      "mathematical_evidence": {
+        "peak_delta_db": 25.125,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "She spoke softly to the dark,"
+    },
+    {
+      "flaw_id": "det_08",
+      "category": "energy",
+      "sub_type": "volume_spike",
+      "start_sec": 25.116,
+      "end_sec": 25.636,
+      "duration_sec": 0.52,
+      "severity_score": 0.4943449864220993,
+      "mathematical_evidence": {
+        "peak_delta_db": 17.932,
+        "threshold_db": 12.0
+      },
+      "target_phrase": "touched"
+    }
+  ],
+  "residual_summary": {
+    "n_frames": 994,
+    "mean_abs_energy_delta": 9.3869,
+    "mean_pacing_ratio": 0.9681,
+    "monotone_frame_fraction": 0.003,
+    "rush_frame_fraction": 0.0131,
+    "drag_frame_fraction": 0.006,
+    "n_detected_flaws": 8,
+    "categories": [
+      "energy",
+      "pause"
+    ]
+  }
+}
